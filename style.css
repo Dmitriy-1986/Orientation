@@ -18,6 +18,7 @@ h1 {
 input {
       width: 100%;
       margin: 0 auto;
+      margin-top: 20px;
 }
 
 ul {
