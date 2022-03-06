@@ -1,232 +1,233 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ua">
-  <head>
-	  
+
+<head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Орієнтування</title>
-		
-		<style>
-			h1 {
-				text-align: center;
-				background-color: #ccc;
-				padding: 20px 0 20px 0;
-				margin-top: 30px;
-			}
+    <title>Орієнтування</title>
 
-			.content {
-				column-count: 3;
-				margin-top: 30px;
-				height: 100%;
-			}
+    <style>
+        h1 {
+            text-align: center;
+            background-color: #ccc;
+            padding: 20px 0 20px 0;
+            margin-top: 30px;
+        }
 
-			input {
-				width: 100%;
-				display: block;   
-				padding: 0.375rem 0.75rem;
-				font-size: 1rem;
-				font-weight: 400;
-				line-height: 1.5;
-				color: #212529;
-				background-color: #fff;
-				background-clip: padding-box;
-				border: 1px solid #ced4da;
-				-webkit-appearance: none;
-				-moz-appearance: none;
-				appearance: none;
-				border-radius: 0.25rem;
-				transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-				margin: 0 auto;
-			}
+        .content {
+            column-count: 3;
+            margin-top: 30px;
+            height: 100%;
+        }
 
-			ul {
-			  list-style: none;
-			  flex-direction: column;
-			  padding: 0;
-			}
-			
-			footer {
-				margin-top: 30px;
-				padding: 20px;
-				background-color: #ccc;
-				font-size: 12px;
-			}
-			
-			@media (max-width: 1100px) {
-				.content {
-					column-count: 2;
-				}
-			}
-			
-			@media (max-width: 600px) {
-				.content {
-					column-count: 1;
-				}
-			}
-			
-			@media (max-width: 500px) {
-				h1 {
-					font-size: 16px;
-				}
-			}
-		</style>
-		
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	</head>
-	<body>
-		
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<h1>ОРІЄНТУВАННЯ</h1>
+        input {
+            width: 100%;
+            display: block;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            margin: 0 auto;
+        }
 
-				<input autocomplete="off" type="search" id="search" placeholder="Шукати по орієнтуванням..." />
-				
-				<div class="content">
-					<ul id="results"></ul>			
-				</div>
-				
-				<footer>
-					2022, Управління Патрульної Поліції в Запорізькій області
-				</footer>
-			</div>
-		</div>
-	</div>
-		
-		
-		<script>
-			const data = [
-				  { brand: "Нива Шевроле", number: "АР 415 G" },
-				  { brand: "Богдан", number: "АР 410 G" },
-				  { brand: "Богдан", number: "АР 405 G" },
-				  { brand: "Газ 66", number: "АР 411 G" },
-				  { brand: "Зил 5301", number: "АР 412 G" },
-				  { brand: "Зил 433100", number: "АР 406 G" },
-				  { brand: "Зил 433100", number: "АР 407 G" },
-				  { brand: "Причеп", number: "АР 786 G" },
-				  { brand: "Маз", number: "АР 413 G" },
-				  { brand: "Маз", number: "АР 409 G" },
-				  { brand: "FordRanger", number: "АР 404 G" },
-				  { brand: "Причеп", number: "АР 785 G" },
-				  { brand: "Причеп", number: "АР 784 G" },
-				  { brand: "ПричепСпец", number: "АР 783 G" },
-				  { brand: "RenaultDuster", number: "АР 408 G" },
-				  { brand: "FordTourneo", number: "АР 402 G" },
-				  { brand: "FordTourneo", number: "АР 403 G" },
-				  { brand: "FordTransit", number: "АР 401 G" },
-				  { brand: "FordKuga", number: "АР 400 G" },
-				  { brand: "FordTransit", number: "АР 416 G" },
-				  { brand: "Tрафiк", number: "ВТ 5527 СМ" },
-				  { brand: "Дастер", number: "ВТ 8405 СМ" },
-				  { brand: "Tрафiк", number: "ВТ 3741 СІ" },
-				  { brand: "Rav4", number: "КА 3714 ЕВ" },
-				  { brand: "Rav4", number: "КА 7634 НТ" },
-				  { brand: "Rav4", number: "KA 1517 AT" },
-				  { brand: "Proace", number: "AA 2652 XІ" },
-				  { brand: "C-HR", number: "КА 0914 СК" },
-				  { brand: "Prado", number: "КА 0529 АО" },
-				  { brand: "Prado", number: "КА 9341 ЕК" },
-				  { brand: "Hillux", number: "КА 7925 ВС" },
-				  { brand: "Lexus", number: "КА 9688 АР" },
-				  { brand: "БМВ", number: "АО 0028 СЕ" },
-				  { brand: "БМВ", number: "ВХ ? 694 ? ЕР" },
-				  { brand: "Тойота Лендкрузер", number: "АН 5000 АО" },
-				  { brand: "Рено Дастер", number: "АА 8004 РТ" },
-				  { brand: "РеноСенік", number: "ВС 1203 ЕА" },
-				  { brand: "Лендровер", number: "ВС 6137 СН" },
-				  { brand: "Рено Трафік", number: "АН 4171 НН - МН" },
-				  { brand: "Лендровер Білий", number: "АА 0949 РІ" },
-				  { brand: "Бус", number: "АМ 5668 ЕІ" },
-				  { brand: "Бус", number: "АМ 1748 ЕО" },
-				  { brand: "Дачіа", number: "ВХ 6982 ЕР" },
-				  { brand: "Шевроле  Авео ", number: "АН 3492 ОО" },
-				  { brand: "БМВ", number: "АЕ ? 760 ЕР" },
-				  { brand: "Ніссан Кашкай", number: "АТ 9854 ЕР" },
-				  { brand: "Тойота", number: "АВ 1055 ЕР " },
-				  { brand: "Міцубісі Лансер", number: "ВІ 2317 ВА" },
-				  { brand: "Форд Куга", number: "ВА 7714 СА" },
-				  { brand: "Хюндай", number: "КА 5874 СА" },
-				  { brand: "Таврія", number: "АН 4877 ??" },
-				  { brand: "ЗАЗ", number: "АН 4877 МА" },
-				  { brand: "Ніва Шевролет", number: "ВВ 4460 СР" },
-				  { brand: "Газ Синій", number: "АХ 4062 ІО" },
-				  { brand: "Ніва Темносиня", number: "?23-33?" },
-				  { brand: "Fiat Doblo", number: "ВВ 5791 СО" },
-				  { brand: "Газ РУТА", number: "ВА 1906 ВО" },
-				  { brand: "ПАЗ", number: "ВМ 3848 АА" },
-				  { brand: "Renault Duster", number: "ВМ 4751 СТ" },
-				  { brand: "ГАЗ", number: "ВМ 3674 АК" },
-				  { brand: "ГАЗ", number: "ВМ 3960 АО" },
-				  { brand: "MERLO", number: "EE 18961 ВМ" },
-				  { brand: "МАЗ", number: "ВМ 1910 ВВ" },
-				  { brand: "Рено Мастер", number: "АР 9610 ЕН" },
-				  { brand: "Рено Дастер", number: "АР 2269 ЕН" },
-				  { brand: "ВАЗ2101", number: "ВВ 8753 ЕР" },
-				  { brand: "Фольксваген", number: "без номерів" },
-				  { brand: "Фольксваген  мультиван", number: "АЕ????" },
-				  { brand: "Тойота  Королла", number: "ВВ????" },
-				  { brand: "Інфініті", number: "І30" },
-				  { brand: "Поліцейські", number: "1891" },
-				  { brand: "Поліцейські", number: "4949" },
-				  { brand: "Поліцейські", number: "8151" },
-				  { brand: "Поліцейські", number: "1773" },
-				  { brand: "Шевролет  Субуран", number: "4218" },
-				  { brand: "Рено Мастер", number: "АР 9610 ЕН" },
-				  { brand: "Рено Дастер", number: "АР 2269 ЕН" },
-				  { brand: "Таврия", number: "1806" },
-				  { brand: "ВАЗ-2109", number: "1810" },
-				  { brand: "ВАЗ-2109", number: "1808" },
-				  { brand: "ВАЗ-2104", number: "0638" },
-				  { brand: "ЗАЗ", number: "0654" },
-				  { brand: "ЗАЗ", number: "0687" },
-				  { brand: "ВАЗ-2107", number: "1805" },
-				  { brand: "ВАЗ-21099", number: "0798" },
-				  { brand: "ВАЗ-2107", number: "0681" },
-				  { brand: "ВАЗ-2107", number: "1414" },
-				  { brand: "ВАЗ-2107", number: "0751" },
-				  { brand: "Фольксваген", number: "0083" },
-				  { brand: "Шкода", number: "0731" },
-				  { brand: "Докер", number: "1826" },
-				  { brand: "Хавал", number: "0687 " },
-				  { brand: "Ваз 2109", number: "0224" },
-			     	  { brand: "Форд транзит", number: "АА 299 G" },
-				];
-		</script>
+        ul {
+            list-style: none;
+            flex-direction: column;
+            padding: 0;
+        }
 
-		
-		
-		<script>
-				const search = document.getElementById("search");
-				const results = document.getElementById("results");
-				let search_term = "";
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ccc;
+            font-size: 12px;
+        }
 
-				const showList = () => {
-					results.innerHTML = "";
-					data
-					
-				.filter((item) => {
-						return (
-						item.number.toLowerCase().includes(search_term) ||
-						item.brand.toLowerCase().includes(search_term)
-					);
-				})
-						
-				.forEach((e) => {
-					const li = document.createElement("li");
-					li.innerHTML = `${e.brand}  -  ${e.number}`;
-					results.appendChild(li);
-				});
-			};
+        @media (max-width: 1100px) {
+            .content {
+                column-count: 2;
+            }
+        }
 
-			showList();
+        @media (max-width: 600px) {
+            .content {
+                column-count: 1;
+            }
+        }
 
-			search.addEventListener("input", (event) => {
-				search_term = event.target.value.toLowerCase();
-				showList();
-			});
-		</script>
-		
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	</body>
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 16px;
+            }
+        }
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>ОРІЄНТУВАННЯ</h1>
+
+                <input autocomplete="off" type="search" id="search" placeholder="Шукати по орієнтуванням..." />
+
+                <div class="content">
+                    <ul id="results"></ul>
+                </div>
+
+                <footer>
+                    2022, Управління Патрульної Поліції в Запорізькій області
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const data = [
+            { brand: "Нива Шевроле", number: "АР 415 G" },
+            { brand: "Богдан", number: "АР 410 G" },
+            { brand: "Богдан", number: "АР 405 G" },
+            { brand: "Газ 66", number: "АР 411 G" },
+            { brand: "Зил 5301", number: "АР 412 G" },
+            { brand: "Зил 433100", number: "АР 406 G" },
+            { brand: "Зил 433100", number: "АР 407 G" },
+            { brand: "Причеп", number: "АР 786 G" },
+            { brand: "Маз", number: "АР 413 G" },
+            { brand: "Маз", number: "АР 409 G" },
+            { brand: "FordRanger", number: "АР 404 G" },
+            { brand: "Причеп", number: "АР 785 G" },
+            { brand: "Причеп", number: "АР 784 G" },
+            { brand: "ПричепСпец", number: "АР 783 G" },
+            { brand: "RenaultDuster", number: "АР 408 G" },
+            { brand: "FordTourneo", number: "АР 402 G" },
+            { brand: "FordTourneo", number: "АР 403 G" },
+            { brand: "FordTransit", number: "АР 401 G" },
+            { brand: "FordKuga", number: "АР 400 G" },
+            { brand: "FordTransit", number: "АР 416 G" },
+            { brand: "Tрафiк", number: "ВТ 5527 СМ" },
+            { brand: "Дастер", number: "ВТ 8405 СМ" },
+            { brand: "Tрафiк", number: "ВТ 3741 СІ" },
+            { brand: "Rav4", number: "КА 3714 ЕВ" },
+            { brand: "Rav4", number: "КА 7634 НТ" },
+            { brand: "Rav4", number: "KA 1517 AT" },
+            { brand: "Proace", number: "AA 2652 XІ" },
+            { brand: "C-HR", number: "КА 0914 СК" },
+            { brand: "Prado", number: "КА 0529 АО" },
+            { brand: "Prado", number: "КА 9341 ЕК" },
+            { brand: "Hillux", number: "КА 7925 ВС" },
+            { brand: "Lexus", number: "КА 9688 АР" },
+            { brand: "БМВ", number: "АО 0028 СЕ" },
+            { brand: "БМВ", number: "ВХ ? 694 ? ЕР" },
+            { brand: "Тойота Лендкрузер", number: "АН 5000 АО" },
+            { brand: "Рено Дастер", number: "АА 8004 РТ" },
+            { brand: "РеноСенік", number: "ВС 1203 ЕА" },
+            { brand: "Лендровер", number: "ВС 6137 СН" },
+            { brand: "Рено Трафік", number: "АН 4171 НН - МН" },
+            { brand: "Лендровер Білий", number: "АА 0949 РІ" },
+            { brand: "Бус", number: "АМ 5668 ЕІ" },
+            { brand: "Бус", number: "АМ 1748 ЕО" },
+            { brand: "Дачіа", number: "ВХ 6982 ЕР" },
+            { brand: "Шевроле  Авео ", number: "АН 3492 ОО" },
+            { brand: "БМВ", number: "АЕ ? 760 ЕР" },
+            { brand: "Ніссан Кашкай", number: "АТ 9854 ЕР" },
+            { brand: "Тойота", number: "АВ 1055 ЕР " },
+            { brand: "Міцубісі Лансер", number: "ВІ 2317 ВА" },
+            { brand: "Форд Куга", number: "ВА 7714 СА" },
+            { brand: "Хюндай", number: "КА 5874 СА" },
+            { brand: "Таврія", number: "АН 4877 ??" },
+            { brand: "ЗАЗ", number: "АН 4877 МА" },
+            { brand: "Ніва Шевролет", number: "ВВ 4460 СР" },
+            { brand: "Газ Синій", number: "АХ 4062 ІО" },
+            { brand: "Ніва Темносиня", number: "?23-33?" },
+            { brand: "Fiat Doblo", number: "ВВ 5791 СО" },
+            { brand: "Газ РУТА", number: "ВА 1906 ВО" },
+            { brand: "ПАЗ", number: "ВМ 3848 АА" },
+            { brand: "Renault Duster", number: "ВМ 4751 СТ" },
+            { brand: "ГАЗ", number: "ВМ 3674 АК" },
+            { brand: "ГАЗ", number: "ВМ 3960 АО" },
+            { brand: "MERLO", number: "EE 18961 ВМ" },
+            { brand: "МАЗ", number: "ВМ 1910 ВВ" },
+            { brand: "Рено Мастер", number: "АР 9610 ЕН" },
+            { brand: "Рено Дастер", number: "АР 2269 ЕН" },
+            { brand: "ВАЗ2101", number: "ВВ 8753 ЕР" },
+            { brand: "Фольксваген", number: "без номерів" },
+            { brand: "Фольксваген  мультиван", number: "АЕ????" },
+            { brand: "Тойота  Королла", number: "ВВ????" },
+            { brand: "Інфініті", number: "І30" },
+            { brand: "Поліцейські", number: "1891" },
+            { brand: "Поліцейські", number: "4949" },
+            { brand: "Поліцейські", number: "8151" },
+            { brand: "Поліцейські", number: "1773" },
+            { brand: "Шевролет  Субуран", number: "4218" },
+            { brand: "Рено Мастер", number: "АР 9610 ЕН" },
+            { brand: "Рено Дастер", number: "АР 2269 ЕН" },
+            { brand: "Таврия", number: "1806" },
+            { brand: "ВАЗ-2109", number: "1810" },
+            { brand: "ВАЗ-2109", number: "1808" },
+            { brand: "ВАЗ-2104", number: "0638" },
+            { brand: "ЗАЗ", number: "0654" },
+            { brand: "ЗАЗ", number: "0687" },
+            { brand: "ВАЗ-2107", number: "1805" },
+            { brand: "ВАЗ-21099", number: "0798" },
+            { brand: "ВАЗ-2107", number: "0681" },
+            { brand: "ВАЗ-2107", number: "1414" },
+            { brand: "ВАЗ-2107", number: "0751" },
+            { brand: "Фольксваген", number: "0083" },
+            { brand: "Шкода", number: "0731" },
+            { brand: "Докер", number: "1826" },
+            { brand: "Хавал", number: "0687 " },
+            { brand: "Ваз 2109", number: "0224" },
+            { brand: "Форд транзит", number: "АА 299 G" },
+        ];
+    
+        const search = document.getElementById("search");
+        const results = document.getElementById("results");
+        let search_term = "";
+
+        const showList = () => {
+            results.innerHTML = "";
+            data
+
+                .filter((item) => {
+                    return (
+                        item.number.toLowerCase().includes(search_term) ||
+                        item.brand.toLowerCase().includes(search_term)
+                    );
+                })
+
+                .forEach((e) => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `${e.brand}  -  ${e.number}`;
+                    results.appendChild(li);
+                });
+        };
+
+        showList();
+
+        search.addEventListener("input", (event) => {
+            search_term = event.target.value.toLowerCase();
+            showList();
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
