@@ -135,7 +135,7 @@
             { img: "./images/КА5257ВІ.png", brand: "Renault", number: "КА 5257 ВІ" },
             { img: "./images/КА0697СС.png", brand: "Škoda", number: "КА 0697 СС" },
             { img: "./images/AI4526IK.png", brand: "Dacia", number: "AI 4526 IK" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/АА4072ХВ.png", brand: "Ford", number: "АА 4072 ХВ" },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
