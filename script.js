@@ -15,7 +15,7 @@ const showList = () => {
 
                 .forEach((e) => {
                     const li = document.createElement("li");
-                    li.innerHTML = `${e.brand}  -  ${e.number}`;
+                    li.innerHTML = `<img class="img-size" src="${e.img}">  ${e.brand}  -  ${e.number}`;
                     results.appendChild(li);
                 });
         };
