@@ -137,7 +137,7 @@
             { img: "./images/AI4526IK.png", brand: "Dacia", number: "AI 4526 IK" },
             { img: "./images/АА4072ХВ.png", brand: "Ford", number: "АА 4072 ХВ" },
             { img: "./images/АР6289АМ.jpg", brand: "Karsan J9", number: "АР 6289 АМ" }, 
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/АР4987СР.jpg", brand: "Mitsubishi Pajero", number: "АР 4987 СР" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
