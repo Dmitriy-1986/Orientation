@@ -20,7 +20,7 @@
             { img: "./images/no-image.png", brand: "Ford Transit", number: "АР 401 G" },
             { img: "./images/no-image.png", brand: "Ford Kuga", number: "АР 400 G" },
             { img: "./images/no-image.png", brand: "Ford Transit", number: "АР 416 G" },
-            { img: "./images/no-image.png", brand: "Tрафiк", number: "ВТ 5527 СМ" },
+            { img: "./images/no-image.png", brand: "Renault Trafic", number: "ВТ 5527 СМ" },
             { img: "./images/no-image.png", brand: "Renault Duster", number: "ВТ 8405 СМ" },
             { img: "./images/no-image.png", brand: "Renault Trafic", number: "ВТ 3741 СІ" },
             { img: "./images/KA3714EB.png", brand: "Toyota", number: "КА 3714 ЕВ" },
