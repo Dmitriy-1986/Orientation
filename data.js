@@ -125,7 +125,7 @@
             { img: "./images/1170.png", brand: "УАЗ", number: "1170" },
             { img: "./images/ВЕ7046ЕМ.png", brand: "Mitsubishi", number: "ВЕ 7046 ЕМ" },
             { img: "./images/BE7549EM.png", brand: "Mitsubishi Pajero", number: "BE 7549 EM" },
-            { img: "./images/AA2300OE.png", brand: "Mercedes-Benz ML 400 4 Matic", number: "AA 2300 OE" },
+            { img: "./images/AA2300OE.png", brand: "Mercedes-Benz Matic", number: "AA 2300 OE" },
             { img: "./images/АА7785ВР.png", brand: "Volkswagen Touareg", number: "АА 7785 ВР" },
             { img: "./images/КА5257ВІ.png", brand: "Renault Trafic", number: "КА 5257 ВІ" },
             { img: "./images/КА0697СС.png", brand: "Skoda Octavia", number: "КА 0697 СС" },
