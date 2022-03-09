@@ -138,7 +138,7 @@
             { id: 137, img: "./images/АР2034ЕР.png", brand: "Chevrolet Cruze", number: "АР 2034 ЕР" },
             { id: 138, img: "./images/AA4007ХВ.jpg", brand: "Mercedes Sprinter", number: "АА 4007 ХВ" },
             { id: 139, img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 
-            { id: 140, img: "./images/no-image.png", brand: "Volkswagen Tiguan, number: "? 4646 ?" }, 
+            { id: 140, img: "./images/no-image.png", brand: "Volkswagen Tiguan", number: "? 4646 ?" }, 
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
