@@ -137,7 +137,7 @@
             { id: 136, img: "./images/ар9038ав.png", brand: "Ford Transit", number: "АР 9038 АВ" },
             { id: 137, img: "./images/АР2034ЕР.png", brand: "Chevrolet Cruze", number: "АР 2034 ЕР" },
             { id: 138, img: "./images/AA4007ХВ.jpg", brand: "Mercedes Sprinter", number: "АА 4007 ХВ" },
-            //{ id: , img: "./images/no-image.png", brand: " ", number: " " }, 
+            { id: 139, img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
