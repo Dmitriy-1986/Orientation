@@ -133,7 +133,7 @@
             { img: "./images/АА4072ХВ.png", brand: "Ford Mondeo", number: "АА 4072 ХВ" },
             { img: "./images/АР6289АМ.jpg", brand: "Karsan J9", number: "АР 6289 АМ" }, 
             { img: "./images/АР4987СР.jpg", brand: "Mitsubishi Pajero", number: "АР 4987 СР" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/АР9038АВ.jpg", brand: "Fiat", number: "АР 9038 АВ" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
