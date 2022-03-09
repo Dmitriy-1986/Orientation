@@ -30,6 +30,10 @@ li {
       margin: 5px 0 5px 0;
 }
 
+.size-id {
+      font-size: 12px;
+}
+
 .img-size {
       width: 70px;
 }
