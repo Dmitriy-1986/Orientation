@@ -3,6 +3,11 @@
       padding-left: 0 !important;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 h2 {
       text-align: center;
       padding: 10px 0 10px 0;
