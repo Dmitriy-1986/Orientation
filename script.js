@@ -15,7 +15,7 @@ const showList = () => {
 
                 .forEach((e) => {
                     const li = document.createElement("li");
-                    li.innerHTML = `<span class="size-id">${e.id}</span> <img class="img-size" src="${e.img}">  ${e.brand},  <b class="text-primary"> ${e.number}</b>`;
+                    li.innerHTML = `<span class="size-id">${e.id} </span> <img class="img-size" src="${e.img}">  ${e.brand},  <b class="text-primary"> ${e.number}</b>`;
                     results.appendChild(li);
                 });
         };
