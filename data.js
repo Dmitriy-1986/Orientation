@@ -135,7 +135,7 @@
             { img: "./images/АР4987СР.jpg", brand: "Mitsubishi Pajero", number: "АР 4987 СР" },
             { img: "./images/АР9038АВ.png", brand: "Fiat", number: "АР 9038 АВ" },
             { img: "./images/no-image.png", brand: "Chevrolet Cruze", number: "АР 2034 ЕР" },
-            { img: "./images/АА4007ХВ.jpg", brand: "Mercedes-Benz Sprinter", number: "АА 4007 ХВ" },
+            { img: "./images/AA4007ХВ.jpg", brand: "Mercedes-Benz Sprinter", number: "АА 4007 ХВ" },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
