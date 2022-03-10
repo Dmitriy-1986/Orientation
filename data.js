@@ -144,7 +144,7 @@
             { id: 143, img: "./images/no-image.png", brand: "Hyundai Tucson", number: "АА 2068 КХ" },
             { id: 144, img: "./images/no-image.png", brand: "Hyundai Tucson", number: "АА 7962 ОА" },
             { id: 145, img: "./images/no-image.png", brand: " Lanos", number: "АР 3656 ??" },
-            //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
+            { id: 146, img: "./images/no-image.png", brand: "Mitsubishi L200", number: "АР 3557 НВ" },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
