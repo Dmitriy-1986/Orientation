@@ -141,7 +141,7 @@
             { id: 140, img: "./images/no-image.png", brand: "Volkswagen Tiguan", number: "АР 4646 СК" }, 
             { id: 141, img: "./images/no-image.png", brand: "Mitsubishi Outlander", number: "1637" }, 
             { id: 142, img: "./images/no-image.png", brand: "Volkswagen Passat", number: "АІ 4610 ОМ" },
-            //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
+            { id: 143, img: "./images/no-image.png", brand: "Hyundai Tucson", number: "АА 2068 КХ" },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
