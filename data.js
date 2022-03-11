@@ -145,7 +145,7 @@
             { id: 144, img: "./images/no-image.png", brand: "Hyundai Tucson", number: "АА 7962 ОА" },
             { id: 145, img: "./images/no-image.png", brand: " Lanos", number: "АР 3656 ??" },
             { id: 146, img: "./images/no-image.png", brand: "Mitsubishi L200", number: "АР 3557 НВ" },
-            { id: 147, img: "./images/no-image.png", brand: "Lexus GS300", number: "АР 1432 НІ" },
+            { id: 147, img: "./images/АР1432НI.png", brand: "Lexus GS300", number: "АР 1432 НІ" },
             { id: 148, img: "./images/no-image.png", brand: "Renault Duster", number: "АР 5970 СХ" },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: , img: "./images/no-image.png", brand: " ", number: " " },
