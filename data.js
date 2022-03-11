@@ -138,7 +138,7 @@
             { id: 137, img: "./images/АР2034ЕР.png", brand: "Chevrolet Cruze", number: "АР 2034 ЕР" },
             { id: 138, img: "./images/AA4007ХВ.jpg", brand: "Mercedes Sprinter", number: "АА 4007 ХВ" },
             { id: 139, img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 
-            { id: 140, img: "./images/no-image.png", brand: "Volkswagen Tiguan", number: "АР 4646 СК" }, 
+            { id: 140, img: "./images/АІ4610ОМ.jpg", brand: "Volkswagen Tiguan", number: "АР 4646 СК" }, 
             { id: 141, img: "./images/no-image.png", brand: "Mitsubishi Outlander", number: "1637" }, 
             { id: 142, img: "./images/no-image.png", brand: "Volkswagen Passat", number: "АІ 4610 ОМ" },
             { id: 143, img: "./images/no-image.png", brand: "Hyundai Tucson", number: "АА 2068 КХ" },
