@@ -209,7 +209,7 @@
             { img: "./images/no-image.png", brand: "Citroen BERLINGO", number: "КА 5308 ЕІ" },
             { img: "./images/no-image.png", brand: "Citroen BERLINGO", number: "КА 6627 ЕТ" },
             { img: "./images/no-image.png", brand: "УАЗ 3909", number: "АА 3899 РМ" },
-            { img: "./images/no-image.png", brand: "Богдан", number: "2336 Т1" },
+            { img: "./images/no-image.png", brand: "Богдан", number: "2336 Т 1" },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
