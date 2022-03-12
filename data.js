@@ -149,7 +149,7 @@
             { img: "./images/no-image.png", brand: "Renault Duster", number: "АР 5970 СХ" },
             { img: "./images/no-image.png", brand: "ГАЗ 3302", number: "КА 1796 ВЕ" },
             { img: "./images/no-image.png", brand: "Citroen Jumper", number: "КА 7751 СК" },
-            //{ id: 151, img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Peugeot 307", number: "АР 1474 СР" },
             //{ id: 152, img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: 153, img: "./images/no-image.png", brand: " ", number: " " },
             //{ id: 154, img: "./images/no-image.png", brand: " ", number: " " }, 
