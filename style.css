@@ -49,8 +49,8 @@ h2 {
 
 .tracking-in-expand {
 	animation-iteration-count: 1;
-	-webkit-animation: tracking-in-expand 2.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
-	        animation: tracking-in-expand 2.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+	-webkit-animation: tracking-in-expand 5.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+	        animation: tracking-in-expand 5.4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
 }
 
 @-webkit-keyframes tracking-in-expand {
