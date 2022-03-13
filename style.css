@@ -98,4 +98,8 @@ li {
       li {
           font-size: 12px;
       }
+  
+  .scrollToTopBtn {
+          right: 15px;
+    }
 }
