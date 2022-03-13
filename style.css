@@ -58,10 +58,7 @@ li {
   text-align: center;
   cursor:pointer; 
   display:none;
-  /*width: 80px;
-  height: 30px;*/
   background: #c0c0c0;
-  line-height: 30px;
   border-radius: 5px;
 }
 
