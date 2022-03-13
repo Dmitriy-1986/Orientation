@@ -97,4 +97,8 @@ img, svg {
       li {
           font-size: 12px;
       }
+     
+     #go-top {
+          right: 30px;
+     }
 }
