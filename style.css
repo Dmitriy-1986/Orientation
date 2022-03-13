@@ -50,28 +50,32 @@ li {
       width: 70px;
 }
 
-.back_to_top {
-  position: fixed;
-  bottom: 80px;
-  right: 40px;
-  z-index: 9999;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  background: #f5f5f5;
-  color: #444;
+.scrollToTopBtn {
+  background-color: #ccc;
+  border: none;
+  color: white;
   cursor: pointer;
-  border-radius: 2px;
-  display: none;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all 0.5s ease;
 }
 
-.back_to_top:hover {
-  background: #e9ebec;
-}
-
-.back_to_top-show {
-  display: block;
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 1399px) {
