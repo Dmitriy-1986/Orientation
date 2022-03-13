@@ -62,14 +62,6 @@ li {
   display: none;
   padding: 8px 4px;
   cursor: pointer;
-  transform: translateY(100px);
-  opacity: 0;
-  transition: transform 0.5s, opacity 0.3s;
-}
-
-.showScrollBtn {
-  transform: translateY(0);
-  opacity: 1;
 }
 
 .top-btn-img {
