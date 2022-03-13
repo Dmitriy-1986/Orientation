@@ -4,16 +4,14 @@ var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
 
 function handleScroll() {
   var scrollableHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var GOLDEN_RATIO = 0.7;
+  var GOLDEN_RATIO = 0.8;
 
   if ((document.documentElement.scrollTop / scrollableHeight ) > GOLDEN_RATIO) {
     //show button
-    if(!scrollToTopBtn.classList.contains("showScrollBtn"))
-    scrollToTopBtn.classList.add("showScrollBtn")
+    scrollToTopBtn.style.display = "block";
   } else {
     //hide button
-    if(scrollToTopBtn.classList.contains("showScrollBtn"))
-    scrollToTopBtn.classList.remove("showScrollBtn")
+    scrollToTopBtn.style.display = "none";
   }
 }
 
