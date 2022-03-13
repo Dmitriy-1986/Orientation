@@ -1,30 +1,30 @@
 const search = document.getElementById("search");
-        const results = document.getElementById("results");
-        let search_term = "";
+const results = document.getElementById("results");
+let search_term = "";
 
 const showList = () => {
-            results.innerHTML = "";
-            data
+      results.innerHTML = "";
+      data
 
-                .filter((item) => {
-                    return (
-                        item.number.toLowerCase().includes(search_term) ||
-                        item.brand.toLowerCase().includes(search_term)
-                    );
-                })
+      .filter((item) => {
+         return (
+             item.number.toLowerCase().includes(search_term) ||
+             item.brand.toLowerCase().includes(search_term)
+         );
+})
 
-                .forEach((e) => {
-                    const li = document.createElement("li");
-                    li.innerHTML = `<img class="img-size" src="${e.img}">  ${e.brand},  <b class="text-primary"> ${e.number}</b>`;
-                    results.appendChild(li);
-                });
-        };
+.forEach((e) => {
+      const li = document.createElement("li");
+      li.innerHTML = `<img class="img-size"  data-aos="zoom-in" src="${e.img}">  ${e.brand},  <b class="text-primary"> ${e.number}</b>`;
+      results.appendChild(li);
+   });
+};
 
-        showList();
+showList();
 
-        search.addEventListener("input", (event) => {
-            search_term = event.target.value.toLowerCase();
-            showList();
-        });
+search.addEventListener("input", (event) => {
+    search_term = event.target.value.toLowerCase();
+    showList();
+});
 
 
