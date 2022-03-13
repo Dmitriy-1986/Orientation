@@ -159,7 +159,7 @@ li {
     }
 }
 
-//Preloader
+/*Preloader*/
 .preloader {
       /*фиксированное позиционирование*/
       position: fixed;
@@ -229,4 +229,4 @@ li {
     .loaded .preloader {
       display: none;
     }
-//End preloader
+/*End preloader*/
