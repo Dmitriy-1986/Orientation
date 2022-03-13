@@ -54,6 +54,16 @@ li {
       width: 70px;
 }
 
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+  display: none;
+  padding: 8px 4px;
+  cursor: pointer;
+}
+
 @media (max-width: 1399px) {
       body {
           font-size: 14px;
