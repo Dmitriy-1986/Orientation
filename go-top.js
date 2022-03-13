@@ -1,3 +1,18 @@
+var btn = $('#go-top');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+/*
 $(document).ready(function(){
   $('body').append('<a href="#" id="go-top"><img src="./images/arrow-up-square.svg"></a>');
 });
@@ -20,3 +35,4 @@ $(function() {
 $(function() {
  $("#go-top").scrollToTop();
 });
+*/
