@@ -51,6 +51,15 @@ li {
       font-size: 11px;
 }
 
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
 .img-size {
       width: 70px;
 }
