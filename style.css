@@ -50,6 +50,26 @@ li {
       width: 70px;
 }
 
+
+#go-top {
+  position: fixed; 
+  bottom: 25px; 
+  right: 70px;
+  text-align: center;
+  cursor:pointer; 
+  display:none;
+  width: 80px;
+  height: 30px;
+  background: #c0c0c0;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+#go-top:hover {
+  background: #333;
+  color: #fff;
+}
+
 @media (max-width: 1399px) {
       body {
           font-size: 14px;
