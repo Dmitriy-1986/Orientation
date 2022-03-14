@@ -220,7 +220,7 @@
             { img: "./images/no-image.png", brand: "Таврiя", number: " 0536" },
             { img: "./images/no-image.png", brand: "ВАЗ 21099", number: "1118" },
             { img: "./images/no-image.png", brand: "ВАЗ 2107", number: "1415" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " }, 
+            { img: "./images/no-image.png", brand: "Renault LODGY", number: "КА 3720 ЕТ" }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
