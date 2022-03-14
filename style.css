@@ -54,6 +54,7 @@ header {
 
 .img-mvs-anime {
    width: 40px;
+   animation-iteration-count: 1;
    animation: waitAnimate 11s linear infinite;
    transform-origin: 50% 50%;
 }
