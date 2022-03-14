@@ -221,7 +221,7 @@
             { img: "./images/no-image.png", brand: "ВАЗ 21099", number: "1118" },
             { img: "./images/no-image.png", brand: "ВАЗ 2107", number: "1415" },
             { img: "./images/КА3720ЕТ-1.jpg", brand: "Renault LODGY", number: "КА 3720 ЕТ" }, 
-            { img: "./images/КА3720ЕТ-2.jpg", brand: "Renault LODGY", number: "КА 3720 ЕТ" }, 
+            { img: "./images/Ка3720ЕТ-2.jpg", brand: "Renault LODGY", number: "КА 3720 ЕТ" }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
