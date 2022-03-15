@@ -230,7 +230,7 @@
             { img: "./images/no-image.png", brand: "Renault Logan", number: "АР 0619 СХ" },
             { img: "./images/no-image.png", brand: "Renault Master", number: "АР 21?? ІР" },
             { img: "./images/АР0003АА.png", brand: "Toyota Camry", number: "АР 0003 АА" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/АР0080ЕЕ.png", brand: "Toyota Camry", number: "АР 0080 ЕЕ" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
