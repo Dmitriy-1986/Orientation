@@ -232,7 +232,7 @@
             { img: "./images/АР0003АА.png", brand: "Toyota Camry", number: "АР 0003 АА" },
             { img: "./images/АР0080ЕЕ.png", brand: "Toyota Camry", number: "АР 0080 ЕЕ" },
             { img: "./images/АР5950АМ.png", brand: "Hyundai Н-1", number: "АР 5950 АМ" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " }, 
+            { img: "./images/no-image.png", brand: "Mitsubishi Outlander", number: "1617" }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
