@@ -225,7 +225,7 @@
             { img: "./images/no-image.png", brand: "Камаз 45142", number: "АР 1423 ЕЕ" }, 
             { img: "./images/no-image.png", brand: "Renault Master", number: "АР 2158 ІР" }, 
             { img: "./images/no-image.png", brand: "Renault Master", number: "АР 2161 ІР" },
-            { img: "./images/no-image.png", brand: "Nissan X-Trail", number: "АР 9500 СТ" },
+            { img: "./images/АР9500СТ.png", brand: "Nissan X-Trail", number: "АР 9500 СТ" },
             { img: "./images/no-image.png", brand: "Renault Logan", number: "АР 0619 СХ" },
             { img: "./images/no-image.png", brand: "Renault Master", number: "АР 21?? ІР" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
