@@ -234,7 +234,7 @@
             { img: "./images/АР5950АМ.png", brand: "Hyundai Н-1", number: "АР 5950 АМ" },
             { img: "./images/no-image.png", brand: "Mitsubishi Outlander", number: "1617" }, 
             { img: "./images/АР4380СМ.png", brand: "Ваз 2107", number: "АР 4380 СМ" }, 
-            //{ img: "./images/no-image.png", brand: " ", number: " " }, 
+            { img: "./images/no-image.png", brand: "Hyundai Sonata", number: "АН 2754 ОІ" }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
