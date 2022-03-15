@@ -210,7 +210,7 @@
             { img: "./images/no-image.png", brand: "Citroen BERLINGO", number: "КА 6627 ЕТ" },
             { img: "./images/no-image.png", brand: "УАЗ 3909", number: "АА 3899 РМ" },
             { img: "./images/no-image.png", brand: "Богдан", number: "2336 Т 1" },
-            { img: "./images/no-image.png", brand: "Renault Dokker", number: "1652" }, 
+            { img: "./images/1652.png", brand: "Renault Dokker", number: "1652" }, 
             { img: "./images/no-image.png", brand: "Renault Duster", number: "1692" }, 
             { img: "./images/no-image.png", brand: "ВАЗ 2110", number: "0606" }, 
             { img: "./images/no-image.png", brand: "Chevrolet Niva", number: "0593" },
