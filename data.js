@@ -229,7 +229,7 @@
             { img: "./images/АР9500СТ.png", brand: "Nissan X-Trail", number: "АР 9500 СТ" },
             { img: "./images/no-image.png", brand: "Renault Logan", number: "АР 0619 СХ" },
             { img: "./images/no-image.png", brand: "Renault Master", number: "АР 21?? ІР" },
-            //{ img: "./images/АР0003АА.png", brand: "Toyota Camry", number: "АР 0003 АА" },
+            { img: "./images/АР0003АА.png", brand: "Toyota Camry", number: "АР 0003 АА" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
