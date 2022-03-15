@@ -69,7 +69,7 @@
             { img: "./images/no-image.png", brand: "Поліцейські", number: "4949" },
             { img: "./images/no-image.png", brand: "Поліцейські", number: "8151" },
             { img: "./images/1773.png", brand: "Hyundai", number: "1773" },
-            { img: "./images/no-image.png", brand: "Chevrolet Suburban", number: "4218" },
+            { img: "./images/4218.png", brand: "Chevrolet Suburban", number: "4218" },
             { img: "./images/no-image.png", brand: "Renault Master", number: "АР 9610 ЕН" },
             { img: "./images/no-image.png", brand: "Renault Duster", number: "АР 2269 ЕН" },
             { img: "./images/no-image.png", brand: "Таврiя", number: "1806" },
