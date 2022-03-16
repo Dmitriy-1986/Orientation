@@ -137,7 +137,7 @@
             { img: "./images/ар9038ав.png", brand: "Ford Transit", number: "АР 9038 АВ" },
             //{ img: "./images/АР2034ЕР.png", brand: "Chevrolet Cruze", number: "АР 2034 ЕР" }, По Шевроле отбой. Его уже отработали - инфо из чата ЧЧ 16:32. 11.03.22
             { img: "./images/AA4007ХВ.jpg", brand: "Mercedes Sprinter", number: "АА 4007 ХВ" },
-            { img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 
+            //{ img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 16.03.22 Снято с ориентировки, отработали, передвигается сотрудник ТРО
             { img: "./images/no-image.png", brand: "Volkswagen Tiguan", number: "АР 4646 СК" }, 
             { img: "./images/no-image.png", brand: "Mitsubishi Outlander", number: "1637" }, 
             { img: "./images/АІ4610ОМ.jpg", brand: "Volkswagen Passat", number: "АІ 4610 ОМ" },
