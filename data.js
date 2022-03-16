@@ -145,7 +145,7 @@
             { img: "./images/no-image.png", brand: "Hyundai Tucson", number: "АА 7962 ОА" },
             { img: "./images/no-image.png", brand: " Lanos", number: "АР 3656 ??" },
             { img: "./images/no-image.png", brand: "Mitsubishi L200", number: "АР 3557 НВ" },
-            { img: "./images/АР1432НI.png", brand: "Lexus GS300", number: "АР 1432 НІ" },
+            //{ img: "./images/АР1432НI.png", brand: "Lexus GS300", number: "АР 1432 НІ" }, 16.03.22 по информации киберов удалить
             { img: "./images/no-image.png", brand: "Renault Duster", number: "АР 5970 СХ" },
             { img: "./images/no-image.png", brand: "ГАЗ 3302", number: "КА 1796 ВЕ" },
             { img: "./images/no-image.png", brand: "Citroen Jumper", number: "КА 7751 СК" },
