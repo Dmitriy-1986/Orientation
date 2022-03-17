@@ -239,7 +239,7 @@
             { img: "./images/no-image.png", brand: "Toyota Land Cruiser Prado", number: "КР 8888 АЕ" },
             { img: "./images/no-image.png", brand: "ВАЗ 2107", number: "АР 5938 СЕ" },
             { img: "./images/no-image.png", brand: "Ford Transit", number: "AE 2872 EH" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Porshe Macan", number: "AX 7761 KE" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
