@@ -235,7 +235,7 @@
             { img: "./images/no-image.png", brand: "Mitsubishi Outlander", number: "1617" }, 
             { img: "./images/АР4380СМ.png", brand: "Ваз 2107", number: "АР 4380 СМ" }, 
             { img: "./images/no-image.png", brand: "Hyundai Sonata", number: "АН 2754 ОІ" }, 
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Ford Focus", number: "AX 1226 MB" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
