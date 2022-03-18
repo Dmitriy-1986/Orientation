@@ -2,7 +2,7 @@
 <html lang="ru" >
 <head>
   <meta charset="UTF-8">
-  <title>404 - страница не найденна </title>
+  <title>404 - сторінка не знайдена </title>
   
   <style>
 	@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
@@ -61,8 +61,8 @@
 <body>
 
 <h1>404</h1>
-<p>Ой! Что-то не так.</p>
-<a class="button" href="https://dovgaldima.pp.ua/"><i class="icon-home"></i>Вернуться на начальную страницу</a>
+<p>Ой! Щось не так.</p>
+<a class="button" href="index.html"><i class="icon-home"></i>Повернутись на головну сторінку</a>
 
 </body>
 </html>
