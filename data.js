@@ -243,7 +243,7 @@
             { img: "./images/no-image.png", brand: "Peugeot 301", number: "КА 5360 АМ" },
             { img: "./images/no-image.png", brand: "Renault Scenic", number: "КА 2425 СО" },
             { img: "./images/no-image.png", brand: "Audi Q3", number: "АН 5855 ІХ" }, 
-            //{ img: "./images/no-image.png", brand: " ", number: " " }, 
+            { img: "./images/no-image.png", brand: "ВАЗ 212140", number: "АР 4377 СВ" }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
