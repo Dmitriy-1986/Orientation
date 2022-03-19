@@ -37,7 +37,7 @@
             { img: "./images/no-image.png", brand: "Renault Duster", number: "АА 8004 РТ" },
             { img: "./images/ВС1203ЕА.png", brand: "Renault Scenic", number: "ВС 1203 ЕА" },
             { img: "./images/no-image.png", brand: "Mercedes-Benz E220", number: "ВС 6137 СН" },
-            { img: "./images/no-image.png", brand: "Renault Trafic", number: "АН 4171 НН - МН" },
+            { img: "./images/no-image.png", brand: "Renault Trafic", number: "АН 4171 НН (МН)" },
             { img: "./images/АА0949РІ.png", brand: "Toyota Land Cruiser", number: "АА 0949 РІ" },
             { img: "./images/АМ5668ЕІ.png", brand: "Volksvagen Crafter", number: "АМ 5668 ЕІ" },
             { img: "./images/АМ1748ЕР.png", brand: "Volkswagen Crafter", number: "АМ 1748 ЕО" },
