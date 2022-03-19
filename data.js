@@ -245,7 +245,7 @@
             { img: "./images/no-image.png", brand: "Audi Q3", number: "АН 5855 ІХ" }, 
             { img: "./images/no-image.png", brand: "ВАЗ 212140", number: "АР 4377 СВ" }, 
             { img: "./images/no-image.png", brand: "Renault Dokker", number: "АР 9085 ЕС" }, 
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/AP5265AK.png", brand: "Mercedes-Benz Sprinter", number: "АР 5265 АК " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
