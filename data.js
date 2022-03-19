@@ -236,7 +236,7 @@
             { img: "./images/АР4380СМ.png", brand: "Ваз 2107", number: "АР 4380 СМ" }, 
             { img: "./images/no-image.png", brand: "Hyundai Sonata", number: "АН 2754 ОІ" }, 
             { img: "./images/no-image.png", brand: "Ford Focus", number: "AX 1226 MB" },
-            { img: "./images/no-image.png", brand: "Toyota Land Cruiser Prado", number: "КР 8888 АЕ" },
+            { img: "./images/no-image.png", brand: "Toyota Land Cruiser", number: "КР 8888 АЕ" },
             { img: "./images/no-image.png", brand: "ВАЗ 2107", number: "АР 5938 СЕ" },
             { img: "./images/no-image.png", brand: "Ford Transit", number: "AE 2872 EH" },
             { img: "./images/no-image.png", brand: "Porshe Macan", number: "AX 7761 KE" },
