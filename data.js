@@ -33,7 +33,7 @@
             { img: "./images/KA7925BC.png", brand: "Toyota Hilux", number: "КА 7925 ВС" },
             { img: "./images/KA9688AP.png", brand: "Lexus LX 450D", number: "КА 9688 АР" },
             { img: "./images/no-image.png", brand: "BMW", number: "ВХ ? 694 ? ЕР" },
-            { img: "./images/no-image.png", brand: "Toyota Land Cruiser", number: "АН 5000 АО" },
+            { img: "./images/no-image.png", brand: "Toyota Land Cruiser", number: "АН 5000 АО (ОА)" },
             { img: "./images/no-image.png", brand: "Renault Duster", number: "АА 8004 РТ" },
             { img: "./images/ВС1203ЕА.png", brand: "Renault Scenic", number: "ВС 1203 ЕА" },
             { img: "./images/no-image.png", brand: "Mercedes-Benz E220", number: "ВС 6137 СН" },
