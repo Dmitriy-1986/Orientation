@@ -13,7 +13,7 @@ const showList = () => {
 
      .forEach((e) => {
             const li = document.createElement("li");
-            li.innerHTML = `<img class="img-size" src="${e.img}" alt="${e.number}" title="${e.number}"><span title="${e.brand}">${e.brand}, </span><strong  title="${e.number}" class="color-primary">${e.number}</strong>`;
+            li.innerHTML = `<img class="img-size" src="${e.img}" alt="NoImg" title="${e.number}"><span title="${e.brand}">${e.brand}, </span><strong  title="${e.number}" class="color-primary">${e.number}</strong>`;
             results.appendChild(li);
      });
 };
