@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +9,10 @@ html {
 }
 
 body {
+     margin: 0;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.5;
      font-family: 'Montserrat', sans-serif !important;	
      background-color: #0f1115 !important;
 }
@@ -51,6 +57,17 @@ header {
 h2 {
       text-align: center;
       color: #dc3545;
+      margin-top: 0;
+      margin-bottom: .5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      font-size: calc(1.325rem + .9vw)
+}
+
+@media (min-width:1200px) {
+      h2 {
+           font-size: 2rem
+      }
 }
 
 .tracking-in-expand {
