@@ -192,6 +192,16 @@ input:focus, input:active:focus {
       box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
 }
 
+input::-moz-placeholder {
+      color: #6c757d;
+      opacity: 1
+}
+
+input::placeholder {
+       color: #6c757d;
+       opacity: 1
+}
+
 ul {
       list-style: none;
       flex-direction: column;
