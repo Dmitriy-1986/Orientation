@@ -250,7 +250,7 @@
             { img: "./images/no-image.png", brand: "Volkswagen T4", number: "BB 5690 CX" },
             { img: "./images/no-image.png", brand: "Kia Soul", number: "AM 1905 BE" },
             { img: "./images/no-image.png", brand: "Mercedes Vito", number: "BB 1020 CK" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Great Wall Pegasus", number: "BB 3383 BI" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
