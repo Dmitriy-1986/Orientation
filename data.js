@@ -252,7 +252,7 @@
             { img: "./images/no-image.png", brand: "Mercedes Vito", number: "BB 1020 CK" },
             { img: "./images/no-image.png", brand: "Great Wall Pegasus", number: "BB 3383 BI" },
             { img: "./images/no-image.png", brand: "Renault Dokker", number: "BH 3458 HT" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " }, 
+            { img: "./images/no-image.png", brand: "Peugeot Bipper", number: "BB 4690 CP" }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
