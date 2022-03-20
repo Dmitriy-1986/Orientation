@@ -246,7 +246,7 @@
             { img: "./images/no-image.png", brand: "ВАЗ 212140", number: "АР 4377 СВ" }, 
             { img: "./images/no-image.png", brand: "Renault Dokker", number: "АР 9085 ЕС" }, 
             //{ img: "./images/AP5265AK.png", brand: "Mercedes-Benz Sprinter", number: "АР 5265 АК " }, Забрал наш военкомат, тз находиться у них в расположении
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Ваз 21063", number: "441-68 AM" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
