@@ -256,7 +256,7 @@
             { img: "./images/no-image.png", brand: "Газель", number: "204 22 HP" }, 
             { img: "./images/no-image.png", brand: "Уаз 3909", number: "189 22 HP" }, 
             { img: "./images/no-image.png", brand: "Уаз 3909", number: "AP 4310 AC" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Skoda Octavia", number: "АР 8543 СЕ" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
