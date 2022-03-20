@@ -240,8 +240,6 @@ button {
       text-decoration: none;
       vertical-align: middle;
       cursor: pointer;
-      -webkit-user-select: none;
-      -moz-user-select: none;
       user-select: none;
       background-color: #f8f9fa;
       border: 1px solid #f8f9fa;
