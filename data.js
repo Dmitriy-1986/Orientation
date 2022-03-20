@@ -249,7 +249,7 @@
             { img: "./images/no-image.png", brand: "Ваз 21063", number: "441-68 AM" },
             { img: "./images/no-image.png", brand: "Volkswagen T4", number: "BB 5690 CX" },
             { img: "./images/no-image.png", brand: "Kia Soul", number: "AM 1905 BE" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Mercedes Vito", number: "BB 1020 CK" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " }, 
