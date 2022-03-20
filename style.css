@@ -38,6 +38,10 @@ ol, ul {
         list-style: auto;
 }
 
+img, svg {
+    vertical-align: middle;
+}
+
 .container {
          width: 100%;
          padding-right: var(--bs-gutter-x, .75rem);
