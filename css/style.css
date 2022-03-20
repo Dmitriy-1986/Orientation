@@ -45,8 +45,8 @@ img, svg {
 
 .container {
          width: 100%;
-         padding-right: 1.5rem, .75rem;
-         padding-left: 1.5rem, .75rem;
+         padding-right: .75rem;
+         padding-left: .75rem;
          margin-right: auto;
          margin-left: auto;
 }
