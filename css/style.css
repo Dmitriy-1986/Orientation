@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background-color: #D62929;
-	background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
+	background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
 }
 
 ol, ul {
@@ -45,40 +45,40 @@ img, svg {
 
 .container {
          width: 100%;
-         padding-right: var(--bs-gutter-x, .75rem);
-         padding-left: var(--bs-gutter-x, .75rem);
+         padding-right: 1.5rem, .75rem;
+         padding-left: 1.5rem, .75rem;
          margin-right: auto;
-         margin-left: auto
+         margin-left: auto;
 }
 
 @media (min-width:576px) {
         .container {
-             max-width: 540px
+             max-width: 540px;
         }
 }
 
 @media (min-width:768px) {
          .container {
-             max-width: 720px
+             max-width: 720px;
          }
  }
 
 @media (min-width:992px) {
 
          .container {
-             max-width: 960px
+             max-width: 960px;
         }
 }
 
 @media (min-width:1200px) {
         .container {
-             max-width: 1140px
+             max-width: 1140px;
         }
 }
 
 @media (min-width:1400px) {
         .container {
-             max-width: 1320px
+             max-width: 1320px;
        }
 }
 
@@ -88,21 +88,21 @@ img, svg {
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) * -.5);
-    margin-left: calc(var(--bs-gutter-x) * -.5)
+    margin-right: calc(1.5rem * -.5);
+    margin-left: calc(1.5rem * -.5);
 }
 
 .row>* {
      flex-shrink: 0;
      width: 100%;
      max-width: 100%;
-     padding-right: calc(var(--bs-gutter-x) * .5);
-     padding-left: calc(var(--bs-gutter-x) * .5);
-     margin-top: var(--bs-gutter-y)
+     padding-right: calc(1.5rem * .5);
+     padding-left: calc(1.5rem * .5);
+     margin-top: 0;
 }
 
 .col {
-     flex: 1 0 0%
+     flex: 1 0 0%;
  }
 
 header {
@@ -123,12 +123,12 @@ h2 {
       margin-bottom: .5rem;
       font-weight: 500;
       line-height: 1.2;
-      font-size: calc(1.325rem + .9vw)
+      font-size: calc(1.325rem + .9vw);
 }
 
 @media (min-width:1200px) {
       h2 {
-           font-size: 2rem
+           font-size: 2rem;
       }
 }
 
@@ -197,7 +197,7 @@ input:focus, input:active:focus {
 
 input::placeholder {
        color: #6c757d;
-       opacity: 1
+       opacity: 1;
 }
 
 ul {
