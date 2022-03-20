@@ -33,6 +33,9 @@ body::-webkit-scrollbar-thumb
       padding-left: 0 !important;
 }
 
+.color-primary {
+	color: #0d6efd;
+}
 header {
   padding: 10px 0 10px 0;
 }
