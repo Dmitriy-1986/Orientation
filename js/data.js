@@ -89,7 +89,7 @@ const data = [
             { img: "./images/0687.jpg", brand: "Haval", number: "0687" },
             { img: "./images/0224.png", brand: "Ваз 2109", number: "0224" },
             { img: "./images/no-image.png", brand: "Ford transit", number: "АА 299 G" },
-            { img: "./images/no-image.png", brand: "Ваз 2113", number: "АР 4958 ?" },
+            { img: "./images/no-image.png", brand: "Ваз 2113", number: "АР 4958 ЕТ" },
             { img: "./images/no-image.png", brand: "Mitsubishi L200", number: "АХ 3338 АХ" },
             { img: "./images/no-image.png", brand: "Газель", number: "0994" },
             { img: "./images/no-image.png", brand: "Нiва", number: "АЕ 5173 МК" },
