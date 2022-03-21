@@ -19,7 +19,7 @@ const data = [
             { img: "./images/no-image.png", brand: "Ford Tourneo", number: "АР 403 G" },
             { img: "./images/no-image.png", brand: "Ford Transit", number: "АР 401 G" },
             { img: "./images/no-image.png", brand: "Ford Kuga", number: "АР 400 G" },
-            { img: "./images/no-image.png", brand: "Ford Transit", number: "АР 416 G" },
+            { img: "./images/416.jpg", brand: "Ford Transit", number: "АР 416 G" },
             { img: "./images/no-image.png", brand: "Renault Trafic", number: "ВТ 5527 СМ" },
             { img: "./images/no-image.png", brand: "Renault Duster", number: "ВТ 8405 СМ" },
             { img: "./images/no-image.png", brand: "Renault Trafic", number: "ВТ 3741 СІ" },
