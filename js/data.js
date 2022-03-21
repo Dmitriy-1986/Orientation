@@ -268,7 +268,7 @@ const data = [
             { img: "./images/no-image.png", brand: "Citroen Berlingo", number: "KA 3814 EM" },
             { img: "./images/no-image.png", brand: "Citroen Berlingo", number: "KA 3866 EM" },
             { img: "./images/АР9434ІС.png", brand: "Volkswagen T6", number: "АР 9434 ІС" },
-            //{ img: "./images/no-image.png", brand: " ", number: " " }, 
+            { img: "./images/АР0858ЕТ.png", brand: "Mitsubishi Outlander", number: "АР0858ЕТ" }, 
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
