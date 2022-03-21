@@ -117,7 +117,6 @@ const data = [
             { img: "./images/no-image.png", brand: "УАЗ 3909", number: "АА 3197 РХ" },
             { img: "./images/no-image.png", brand: "Volksvagen ", number: "АХ 0860 СК" },
             { img: "./images/no-image.png", brand: "Ваз 2109", number: "АР 5224 НЕ" },
-            { img: "./images/no-image.png", brand: "Богдан", number: "0643" },
             { img: "./images/no-image.png", brand: "Toyota Land Cruiser", number: "0657" },
             { img: "./images/no-image.png", brand: "Ваз 21013", number: "4958" },
             { img: "./images/КА4435АХ.png", brand: "Subaru Forester", number: "КА 4435 АХ" },
