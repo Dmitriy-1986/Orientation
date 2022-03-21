@@ -269,8 +269,8 @@ const data = [
             { img: "./images/no-image.png", brand: "Citroen Berlingo", number: "KA 3866 EM" },
             { img: "./images/АР9434ІС.png", brand: "Volkswagen T6", number: "АР 9434 ІС" },
             //{ img: "./images/АР0858ЕТ.png", brand: "Mitsubishi Outlander", number: "АР0858ЕТ" }, Не подтверждается отбой, на Митсубиши военкомат, Оружие на руках у Тер обороны(Хортицкой полк)
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
-            //{ img: "./images/no-image.png", brand: " ", number: " " },
+            { img: "./images/no-image.png", brand: "Chevrolet Aveo", number: "АМ 0755 ЕЕ" },
+            { img: "./images/no-image.png", brand: "Skoda Octavia A5", number: "АР 0010" },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
             //{ img: "./images/no-image.png", brand: " ", number: " " },
