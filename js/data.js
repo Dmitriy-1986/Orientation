@@ -11,6 +11,7 @@ const data = [
             { img: "./images/409-413.jpg", brand: "Маз", number: "АР 413 G" },
             { img: "./images/KozakNGU.jpg", brand: "Козак", number: "б/н" },
             { img: "./images/409-413.jpg", brand: "Маз", number: "АР 409 G" },
+            { img: "./images/RenaultDusterNGU.jpg", brand: "Renault Duster", number: "б/н" },           
             { img: "./images/AP404G.jpg", brand: "Ford Ranger", number: "АР 404 G" },
             { img: "./images/no-image.png", brand: "Причеп", number: "АР 785 G" },
             { img: "./images/no-image.png", brand: "Причеп", number: "АР 784 G" },
