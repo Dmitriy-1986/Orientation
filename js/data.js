@@ -14,7 +14,7 @@ const data = [
             { img: "./images/no-image.png", brand: "Причеп", number: "АР 785 G" },
             { img: "./images/no-image.png", brand: "Причеп", number: "АР 784 G" },
             { img: "./images/no-image.png", brand: "Причеп Спец", number: "АР 783 G" },
-            { img: "./images/no-image.png", brand: "Renault Duster", number: "АР 408 G" },
+            { img: "./images/AP408G.jpg", brand: "Renault Duster", number: "АР 408 G" },
             { img: "./images/no-image.png", brand: "Ford Tourneo", number: "АР 402 G" },
             { img: "./images/no-image.png", brand: "Ford Tourneo", number: "АР 403 G" },
             { img: "./images/no-image.png", brand: "Ford Transit", number: "АР 401 G" },
