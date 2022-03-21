@@ -4,7 +4,7 @@ const data = [
             { img: "./images/405-410.jpg", brand: "Богдан", number: "АР 410 G" },
             { img: "./images/405-410.jpg", brand: "Богдан", number: "АР 405 G" },
             { img: "./images/AP411G.jpg", brand: "Газ 66", number: "АР 411 G" },
-            { img: "./images/no-image.png", brand: "Зiл 5301", number: "АР 412 G" },
+            { img: "./images/AP412G.jpg", brand: "Зiл 5301", number: "АР 412 G" },
             { img: "./images/406-407.jpg", brand: "Зiл 433100", number: "АР 406 G" },
             { img: "./images/406-407.jpg", brand: "Зiл 433100", number: "АР 407 G" },
             { img: "./images/no-image.png", brand: "Причеп", number: "АР 786 G" },
