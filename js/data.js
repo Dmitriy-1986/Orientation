@@ -94,7 +94,7 @@ const data = [
             { img: "./images/no-image.png", brand: "Газель", number: "0994" },
             { img: "./images/no-image.png", brand: "Нiва", number: "АЕ 5173 МК" },
             { img: "./images/no-image.png", brand: "Skoda", number: "АЕ 2289 АВ" },
-            { img: "./images/no-image.png", brand: "Богдан", number: "0643" },
+            { img: "./images/no-image.png", brand: "Богдан", number: "0643 А2" },
             { img: "./images/no-image.png", brand: "Volkswagen lt 35", number: "АХ 8081 ?" },
             { img: "./images/no-image.png", brand: "Renault traffic", number: "АХ 6949 СМ" },
             { img: "./images/no-image.png", brand: "Citroen jumper", number: "АХ 9906 ВА" },
