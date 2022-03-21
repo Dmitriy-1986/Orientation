@@ -1,8 +1,8 @@
 const data = [
             { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G" },
             { img: "./images/АО0028СЕ.png", brand: "BMW 530D", number: "АО 0028 СЕ" },
-            { img: "./images/no-image.png", brand: "Богдан", number: "АР 410 G" },
-            { img: "./images/no-image.png", brand: "Богдан", number: "АР 405 G" },
+            { img: "./images/405-410.jpg", brand: "Богдан", number: "АР 410 G" },
+            { img: "./images/405-410.jpg", brand: "Богдан", number: "АР 405 G" },
             { img: "./images/no-image.png", brand: "Газ 66", number: "АР 411 G" },
             { img: "./images/no-image.png", brand: "Зiл 5301", number: "АР 412 G" },
             { img: "./images/no-image.png", brand: "Зiл 433100", number: "АР 406 G" },
