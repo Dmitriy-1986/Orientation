@@ -133,7 +133,7 @@ const data = [
             { img: "./images/АА4072ХВ.png", brand: "Ford Mondeo", number: "АА 4072 ХВ" },
             { img: "./images/АР6289АМ.jpg", brand: "Karsan J9", number: "АР 6289 АМ" }, 
             { img: "./images/АР4987СР.jpg", brand: "Mitsubishi Pajero", number: "АР 4987 СР" },
-            { img: "./images/АР9038АВ.png", brand: "Ford Transit", number: "АР 9038 АВ" },
+            { img: "./images/АР9038АВ.webp", brand: "Ford Transit", number: "АР 9038 АВ" },
             //{ img: "./images/АР2034ЕР.png", brand: "Chevrolet Cruze", number: "АР 2034 ЕР" }, По Шевроле отбой. Его уже отработали - инфо из чата ЧЧ 16:32. 11.03.22
             { img: "./images/AA4007ХВ.jpg", brand: "Mercedes Sprinter", number: "АА 4007 ХВ" },
             //{ img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 16.03.22 Снято с ориентировки, отработали, передвигается сотрудник ТРО
