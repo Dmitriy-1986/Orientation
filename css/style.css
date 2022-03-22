@@ -106,7 +106,7 @@ img, svg {
  }
 
 header {
-     padding: 10px 0 10px 0;
+     padding: 10px 0 20px 0;
 }
 
 .sticky {
@@ -166,7 +166,7 @@ h2 {
 
 .content {
       column-count: 3;
-      margin-top: 30px;
+      margin-top: 10px;
       height: 100%;
 }
 
