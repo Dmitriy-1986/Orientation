@@ -139,7 +139,7 @@ const data = [
             //{ img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 16.03.22 Снято с ориентировки, отработали, передвигается сотрудник ТРО
             { img: "./images/no-image.webp", brand: "Volkswagen Tiguan", number: "АР 4646 СК" }, 
             { img: "./images/no-image.webp", brand: "Mitsubishi Outlander", number: "1637" }, 
-            { img: "./images/АІ4610ОМ.jpg", brand: "Volkswagen Passat", number: "АІ 4610 ОМ" },
+            { img: "./images/АІ4610ОМ.webp", brand: "Volkswagen Passat", number: "АІ 4610 ОМ" },
             { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 2068 КХ" },
             { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 7962 ОА" },
             { img: "./images/no-image.webp", brand: " Lanos", number: "АР 3656 ??" },
