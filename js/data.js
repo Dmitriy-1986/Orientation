@@ -146,7 +146,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Mitsubishi L200", number: "АР 3557 НВ" },
             //{ img: "./images/АР1432НI.png", brand: "Lexus GS300", number: "АР 1432 НІ" }, 16.03.22 по информации киберов удалить
             { img: "./images/no-image.webp", brand: "Renault Duster", number: "АР 5970 СХ" },
-            { img: "./images/КА1796ВЕ.png", brand: "ГАЗ 3302", number: "КА 1796 ВЕ" },
+            { img: "./images/КА1796ВЕ.webp", brand: "ГАЗ 3302", number: "КА 1796 ВЕ" },
             { img: "./images/no-image.webp", brand: "Citroen Jumper", number: "КА 7751 СК" },
             { img: "./images/no-image.webp", brand: "Peugeot 307", number: "АР 1474 СР" },
             { img: "./images/no-image.webp", brand: "ВАЗ 21214", number: "AA 3878 PM" },
