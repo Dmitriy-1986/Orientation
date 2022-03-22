@@ -130,7 +130,7 @@ const data = [
             { img: "./images/КА5257ВІ.png", brand: "Renault Trafic", number: "КА 5257 ВІ" },
             { img: "./images/КА0697СС.png", brand: "Skoda Octavia", number: "КА 0697 СС" },
             { img: "./images/AI4526IK.png", brand: "Dacia Sandero", number: "AI 4526 IK" },
-            { img: "./images/АА4072ХВ.png", brand: "Ford Mondeo", number: "АА 4072 ХВ" },
+            { img: "./images/АА4072ХВ.webp", brand: "Ford Mondeo", number: "АА 4072 ХВ" },
             { img: "./images/АР6289АМ.jpg", brand: "Karsan J9", number: "АР 6289 АМ" }, 
             { img: "./images/АР4987СР.jpg", brand: "Mitsubishi Pajero", number: "АР 4987 СР" },
             { img: "./images/АР9038АВ.webp", brand: "Ford Transit", number: "АР 9038 АВ" },
