@@ -272,7 +272,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Chevrolet Aveo", number: "АМ 0755 ЕЕ" },
             { img: "./images/no-image.webp", brand: "Skoda Octavia A5", number: "АР 0010 ??" },
             { img: "./images/no-image.webp", brand: "BMW X5", number: "АО 1902 НН" },
-            //{ img: "./images/no-image.webp", brand: " ", number: " " },
+            { img: "./images/no-image.webp", brand: "Toyota Camry", number: "КА 2791 НВ" },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
