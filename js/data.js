@@ -258,7 +258,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "УАЗ 3909", number: "AA 3764 PM" },
             { img: "./images/no-image.webp", brand: "Citroen Berlingo", number: "KA 1602 EI" },
             { img: "./images/no-image.webp", brand: "Citroen Berlingo", number: "KA 2236 EМ" },
-            { img: "./images/no-image.webpg", brand: "Citroen Berlingo", number: "KA 2239 EM" },
+            { img: "./images/no-image.webp", brand: "Citroen Berlingo", number: "KA 2239 EM" },
             { img: "./images/no-image.webp", brand: "Citroen Berlingo", number: "KA 2247 EM" }, 
             { img: "./images/no-image.webp", brand: "Citroen Berlingo", number: "KA 2249 EM" }, 
             { img: "./images/no-image.webp", brand: "Citroen Berlingo", number: "KA 2263 EM" }, 
