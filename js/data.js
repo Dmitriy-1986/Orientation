@@ -278,7 +278,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "ВАЗ 21130", number: "AP 5544 CT" },
             { img: "./images/no-image.webp", brand: "Mitsubishi L200 ", number: "AP 7141 HT" }, 
             { img: "./images/E8217KI.png", brand: "Audi", number: "E 8217 KI" }, 
-            //{ img: "./images/no-image.webp", brand: " ", number: " " }, 
+            { img: "./images/no-image.webp", brand: "Renault Logan", number: "АІ 4998 НІ" }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
