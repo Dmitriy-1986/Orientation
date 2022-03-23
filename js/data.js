@@ -276,7 +276,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Chery E5 ", number: "AP 1978 EP" },
             { img: "./images/no-image.webp", brand: "Toyota Land Cruiser", number: "AP 5595 AE" },
             { img: "./images/no-image.webp", brand: "ВАЗ 21130", number: "AP 5544 CT" },
-            //{ img: "./images/no-image.webp", brand: " ", number: " " }, 
+            { img: "./images/no-image.webp", brand: "Mitsubishi L200 ", number: "AP 7141 HT" }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " " }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " " }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
