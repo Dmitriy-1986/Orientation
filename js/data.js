@@ -230,7 +230,7 @@ const data = [
             { img: "./images/АР0080ЕЕ.png", brand: "Toyota Camry", number: "АР 0080 ЕЕ" },
             { img: "./images/АР5950АМ.png", brand: "Hyundai Н-1", number: "АР 5950 АМ" },
             { img: "./images/no-image.webp", brand: "Mitsubishi Outlander", number: "1617" }, 
-            { img: "./images/АР4380СМ.webp", brand: "Ваз 2107", number: "АР 4380 СМ" }, 
+            //{ img: "./images/АР4380СМ.webp", brand: "Ваз 2107", number: "АР 4380 СМ" }, Снимите авто с Гарпун 24.03.22
             { img: "./images/no-image.webp", brand: "Hyundai Sonata", number: "АН 2754 ОІ" }, 
             { img: "./images/no-image.webp", brand: "Ford Focus", number: "AX 1226 MB" },
             { img: "./images/no-image.webp", brand: "Toyota Land Cruiser", number: "КР 8888 АЕ" },
