@@ -13,7 +13,7 @@ const showList = () => {
 
      .forEach((e) => {
             const li = document.createElement("li");
-            li.innerHTML = `<img class="img-size" src="${e.img}" alt="NoImg" title="${e.number}"><span title="${e.brand}">${e.brand}, </span><strong  title="${e.number}" class="color-primary">${e.number}</strong>`;
+            li.innerHTML = `<img onclick="openImg(${e.img})" class="img-size" src="${e.img}" alt="NoImg" title="${e.number}"><span title="${e.brand}">${e.brand}, </span><strong  title="${e.number}" class="color-primary">${e.number}</strong>`;
             results.appendChild(li);
      });
 };
@@ -24,3 +24,8 @@ search.addEventListener("input", (event) => {
     search_term = event.target.value.toLowerCase();
     showList();
 });
+
+/* Open Img */
+function openImg(img) {
+     openWin = open(img);
+}
