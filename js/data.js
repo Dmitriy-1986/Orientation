@@ -283,7 +283,7 @@ const data = [
             { img: "./images/АР6226ЕВ.png", brand: "Volkswagen Polo", number: "АР 6226 ЕВ" },
             { img: "./images/no-image.webp", brand: "ВАЗ 21104", number: "АР 8375 ВI" },
             { img: "./images/no-image.webp", brand: "Opel Vivaro", number: "АР 0626 СХ" },
-            //{ img: "./images/no-image.webp", brand: " ", number: " " },
+            { img: "./images/no-image.webp", brand: "Skoda Fabia", number: "АР 4463 ЕТ" },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " }, 
