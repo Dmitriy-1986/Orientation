@@ -287,7 +287,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Поліцейські", number: "08 1868" },
             { img: "./images/no-image.webp", brand: "Skoda Rapid", number: "АР 1510 СР" },
             { img: "./images/no-image.webp", brand: "Renault Kangoo", number: "AP 0698 EO" }, 
-            { img: "./images/no-image.webp", brand: "ЗАЗ 1103", number: "АР 1103 АВ" }, 
+            { img: "./images/no-image.webp", brand: "ЗАЗ 1103", number: "АР 1257 АВ" }, 
             { img: "./images/33303BH.webp", brand: "Екскаватор JCB 3CX", number: "33303 BH" }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
