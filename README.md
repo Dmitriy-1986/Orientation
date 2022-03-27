@@ -1,4 +1,6 @@
 <a href="https://dmitriy-1986.github.io/Orientation/">www.orientation.pp.ua</a>
+<br><br>
+<h2>Высота, ширина окна</h2>
 <pre>
 
 <p>Window height: <span id="height"></span></p>
