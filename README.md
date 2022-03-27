@@ -1,8 +1,10 @@
 <a href="https://dmitriy-1986.github.io/Orientation/">www.orientation.pp.ua</a>
 <pre>
-
+<p>Window height: <span id="height"></span></p>
+<p>Window width: <span id="width"></span></p>
+    
 const heightOutput = document.querySelector("#height");
-        const widthOutput = document.querySelector("#width");
+const widthOutput = document.querySelector("#width");
 
 function resizeListener() {
         heightOutput.textContent = window.innerHeight;
@@ -10,4 +12,5 @@ function resizeListener() {
 }
 
 window.addEventListener("resize", resizeListener);
+
 </pre>
