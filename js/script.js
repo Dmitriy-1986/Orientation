@@ -18,7 +18,7 @@ const showList = () => {
      });
 };
 
-setTimeout(showList, 1500);
+setTimeout(showList, 1600);
 //showList();
 
 search.addEventListener("input", (event) => {
