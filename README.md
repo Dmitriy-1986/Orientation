@@ -1,5 +1,5 @@
 <a href="https://dmitriy-1986.github.io/Orientation/">www.orientation.pp.ua</a>
-<code>
+<pre>
 
 <p>Window height: <span id="height"></span></p>
 <p>Window width: <span id="width"></span></p>
@@ -14,4 +14,4 @@ function resizeListener() {
 
 window.addEventListener("resize", resizeListener);
 
-</code>
+</pre>
