@@ -304,7 +304,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Citroen Berlingo", number: "КА 6623 ЕТ" },
             { img: "./images/no-image.webp", brand: "ВИС2345", number: "АА 6013 РО" },
             { img: "./images/no-image.webp", brand: "ВАЗ 2110", number: "АА 3902 РМ" },
-            //{ img: "./images/no-image.webp", brand: " ", number: " " },
+            { img: "./images/no-image.webp", brand: "Peugeot 308", number: "AP 1469 HE" },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
