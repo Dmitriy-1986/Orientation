@@ -305,7 +305,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "ВИС2345", number: "АА 6013 РО" },
             { img: "./images/no-image.webp", brand: "ВАЗ 2110", number: "АА 3902 РМ" },
             { img: "./images/no-image.webp", brand: "Peugeot 308", number: "AP 1469 HE" },
-            //{ img: "./images/no-image.webp", brand: " ", number: " " },
+            { img: "./images/АР5338ВВ.webp", brand: "Mercedes-Benz", number: "АР 5338 ВВ" },
             //{ img: "./images/no-image.webp", brand: " ", number: " " }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
