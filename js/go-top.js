@@ -1,6 +1,19 @@
-document.addEventListener("scroll", handleScroll);
+let body = document.querySelector('body');
+let btn = document.createElement('button');
+btn.setAttribute('type', 'button');
+btn.classList.add('scrollToTopBtn');
+btn.style.display = 'none';
+body.appendChild(btn);
+
+let iconBtn = document.createElement('img');
+iconBtn.classList.add('top-btn-img');
+iconBtn.src = "./images/up-arrow_icon-icons.com_63400.svg";
+iconBtn.setAttribute('GoTop');
+btn.appendChild(iconBtn);
+
+document.addEventListener('scroll', handleScroll);
 // get a reference to our predefined button
-var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+var scrollToTopBtn = document.querySelector('.scrollToTopBtn');
 
 function handleScroll() {
   var scrollableHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -8,18 +21,18 @@ function handleScroll() {
 
   if ((document.documentElement.scrollTop / scrollableHeight ) > GOLDEN_RATIO) {
     //show button
-    scrollToTopBtn.style.display = "block";
+    scrollToTopBtn.style.display = 'block';
   } else {
     //hide button
-    scrollToTopBtn.style.display = "none";
+    scrollToTopBtn.style.display = 'none';
   }
 }
 
-scrollToTopBtn.addEventListener("click", scrollToTop);
+scrollToTopBtn.addEventListener('click', scrollToTop);
 
 function scrollToTop() {
   window.scrollTo({
     top: 0,
-    behavior: "smooth"
+    behavior: 'smooth'
   });
 }
