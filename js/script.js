@@ -16,8 +16,7 @@ const showList = () => {
            // li.innerHTML = `<img onclick="openImg('${e.img}')" class="img-size" src="${e.img}" alt="-" title="${e.number}"><span title="${e.brand}">${e.brand}, </span><strong  title="${e.number}" class="color-primary">${e.number}</strong>`;
             li.innerHTML = `<img onclick="openImg('${e.img}')" class="img-size" src="${e.img}" alt="-" title="${e.number}">
                             <span title="${e.brand}">${e.brand}, </span>
-                            <strong  title="${e.number}" class="color-primary">${e.number}</strong>`;
-            
+                            <strong  title="${e.number}" class="color-primary">${e.number}</strong>`;            
             results.appendChild(li);
      });
 };
