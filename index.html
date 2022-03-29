@@ -60,9 +60,8 @@
                 titleOrientation.innerHTML = 'ОРІЄНТУВАННЯ';
                 header.appendChild(titleOrientation);
 
-                let inputSearch = document.createElement('input');
+                let inputSearch = document.createElement('input').autofocus;
                 inputSearch.id = "search"; 
-                inputSearch.autofocus; 
                 inputSearch.placeholder =  'Шукати по орієнтуванням...';
                 inputSearch.setAttribute('autocomplete', 'off');
                 inputSearch.setAttribute('type', 'search');
