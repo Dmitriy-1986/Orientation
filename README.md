@@ -21,7 +21,6 @@ window.addEventListener("resize", resizeListener);
 <hr>
 <h2>Чтение объекта</h2>
 <pre>
-//Чтение объекта...
         const dataTest = [
             {test: "1 - test lorem ipsum dolor sit amet ...."},
             {test: "2 - test lorem ipsum dolor sit amet ...."},
@@ -41,5 +40,4 @@ window.addEventListener("resize", resizeListener);
             objTestParagrtaph.innerHTML = test;  
             objTest.appendChild(objTestParagrtaph);
         }       
-        //Конец скрипта чтение объекта...
 </pre>
