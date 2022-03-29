@@ -309,7 +309,7 @@ const data = [
             { img: "./images/АР3230ІР.webp", brand: "Suzuki Grand Vitara", number: "AP 3230 ІР" }, 
             { img: "./images/no-image.webp", brand: "Газель", number: "АР 8070 АН" },
             { img: "./images/no-image.webp", brand: "Mercedes-Benz", number: "АР 8990 АО" },
-            //{ img: "./images/no-image.webp", brand: " ", number: " " },
+            { img: "./images/КА7623АС.webp", brand: "Renault Logan", number: "КА 7623 АС" },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
