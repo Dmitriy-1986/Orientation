@@ -306,7 +306,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "ВАЗ 2110", number: "АА 3902 РМ" },
             { img: "./images/АР1469НЕ.webp", brand: "Peugeot 308", number: "AP 1469 HE" },
             { img: "./images/АР5338ВВ.webp", brand: "Mercedes-Benz", number: "АР 5338 ВВ" },
-            { img: "./images/no-image.webp", brand: "Suzuki Grand Vitara", number: "AP 3230 ІР" }, 
+            { img: "./images/АР3230ІР.webp", brand: "Suzuki Grand Vitara", number: "AP 3230 ІР" }, 
             { img: "./images/no-image.webp", brand: "Газель", number: "АР 8070 АН" },
             { img: "./images/no-image.webp", brand: "Mercedes-Benz", number: "АР 8990 АО" },
             //{ img: "./images/no-image.webp", brand: " ", number: " " },
