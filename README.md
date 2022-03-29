@@ -34,10 +34,10 @@ win.appendChild(objTest);
 let dataCopy = dataTest;
 
 for(let i = 0; i < dataCopy.length; i++) {
-    let test = dataTest[i].test;
-    let objTestParagrtaph = document.createElement('p');
-    objTestParagrtaph.style.fontWeight = "bold";
-    objTestParagrtaph.innerHTML = test;  
-    objTest.appendChild(objTestParagrtaph);
+        let test = dataTest[i].test;
+        let objTestParagrtaph = document.createElement('p');
+        objTestParagrtaph.style.fontWeight = "bold";
+        objTestParagrtaph.innerHTML = test;  
+        objTest.appendChild(objTestParagrtaph);
 }       
 </pre>
