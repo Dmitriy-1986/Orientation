@@ -8,7 +8,7 @@ body.appendChild(btn);
 let iconBtn = document.createElement('img');
 iconBtn.classList.add('top-btn-img');
 iconBtn.src = "./images/up-arrow_icon-icons.com_63400.svg";
-iconBtn.setAttribute('GoTop');
+iconBtn.setAttribute('alt', 'GoTop');
 btn.appendChild(iconBtn);
 
 document.addEventListener('scroll', handleScroll);
