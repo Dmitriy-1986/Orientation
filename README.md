@@ -41,5 +41,5 @@ for(let i = 0; i < dataCopy.length; i++) {
         objTestParagrtaph.innerHTML = test;  
         objTest.appendChild(objTestParagrtaph);
         
-}       
+};       
 </pre>
