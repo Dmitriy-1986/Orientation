@@ -17,3 +17,29 @@ function resizeListener() {
 window.addEventListener("resize", resizeListener);
 
 </pre>
+
+<hr>
+<h2>Чтение объекта</h2>
+<pre>
+//Чтение объекта...
+        const dataTest = [
+            {test: "1 - test lorem ipsum dolor sit amet ...."},
+            {test: "2 - test lorem ipsum dolor sit amet ...."},
+            {test: "3 - test lorem ipsum dolor sit amet ...."},
+            {test: "4 - test lorem ipsum dolor sit amet ...."},
+        ];
+
+        let objTest = document.createElement('div');
+        win.appendChild(objTest);
+
+        let dataCopy = dataTest;
+
+        for(let i = 0; i < dataCopy.length; i++) {
+            let test = dataTest[i].test;
+            let objTestParagrtaph = document.createElement('p');
+            objTestParagrtaph.style.fontWeight = "bold";
+            objTestParagrtaph.innerHTML = test;  
+            objTest.appendChild(objTestParagrtaph);
+        }       
+        //Конец скрипта чтение объекта...
+</pre>
