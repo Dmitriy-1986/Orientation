@@ -1,5 +1,8 @@
 const data = [
-            { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G" },
+            { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G",
+              conent: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, incidunt perferendis eos quod aliquid quia <br>
+                        temporibus iure totam quam deserunt earum excepturi, vitae ducimus exercitationem provident. Dolore temporibus <br>
+                        facilis assumenda!`},
             { img: "./images/АО0028СЕ.png", brand: "BMW 530D", number: "АО 0028 СЕ" },
             { img: "./images/405-410.jpg", brand: "Богдан", number: "АР 410 G" },
             { img: "./images/405-410.jpg", brand: "Богдан", number: "АР 405 G" },
