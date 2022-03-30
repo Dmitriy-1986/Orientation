@@ -32,3 +32,8 @@ search.addEventListener("input", (event) => {
 function openImg(img) {
      openWin = open(img);
 }
+
+/* Open Alert Msg */
+function openMsg(message) {
+    alert(message);
+}
