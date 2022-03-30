@@ -312,7 +312,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Renault Kangoo", number: "АЕ 8627 КР", msg: "Можливо авто ДРГ - перевірка!"  },
             { img: "./images/no-image.webp", brand: "Камаз", number: "АР 1550 АС", msg: "Можливо авто ДРГ - перевірка!"  },
             { img: "./images/no-image.webp", brand: "Причеп СОМЕР", number: "АР 1603 ХО", msg: "Можливо авто ДРГ - перевірка!"  },
-            //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
+            { img: "./images/no-image.webp", brand: "ВАЗ 21102", number: "АР 0522 АС", msg: "Жовнир Олександр Анатолійович, 22.03.1976 р.н. - підозрюється у співпраці з окупантами. Зливав адреси проживання Атошників. Нібито заїхав із колоною із Гуляйполя до Запоріжжя."  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  }, 
