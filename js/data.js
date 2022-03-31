@@ -142,7 +142,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 2068 КХ", msg: "Можливо авто ДРГ - перевірка!"  },
             { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 7962 ОА", msg: "Можливо авто ДРГ - перевірка!"  },
             { img: "./images/no-image.webp", brand: " Lanos", number: "АР 3656 ??", msg: "Можливо авто ДРГ - перевірка!"  },
-            { img: "./images/no-image.webp", brand: "Mitsubishi L200", number: "АР 3557 НВ", msg: "Можливо авто ДРГ - перевірка!"  },
+            { img: "./images/no-image.webp", brand: "Mitsubishi L200", number: "АР 3557 НВ", msg: "Мітсубісі Л-200. Викрали вороги в с.Ботієво Приазовського району з підприємства."  },
             //{ img: "./images/АР1432НI.png", brand: "Lexus GS300", number: "АР 1432 НІ" }, 16.03.22 по информации киберов удалить
             { img: "./images/no-image.webp", brand: "Renault Duster", number: "АР 5970 СХ", msg: "Можливо авто ДРГ - перевірка!"  },
             { img: "./images/КА1796ВЕ.webp", brand: "ГАЗ 3302", number: "КА 1796 ВЕ", msg: "Можливо авто ДРГ - перевірка!"  },
