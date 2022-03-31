@@ -136,11 +136,11 @@ const data = [
             //{ img: "./images/АР2034ЕР.png", brand: "Chevrolet Cruze", number: "АР 2034 ЕР" }, По Шевроле отбой. Его уже отработали - инфо из чата ЧЧ 16:32. 11.03.22
             { img: "./images/AA4007ХВ.jpg", brand: "Mercedes Sprinter", number: "АА 4007 ХВ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/00362НС.png", brand: "Ваз 2103", number: "00362 HC" }, 16.03.22 Снято с ориентировки, отработали, передвигается сотрудник ТРО
-            { img: "./images/no-image.webp", brand: "Volkswagen Tiguan", number: "АР 4646 СК", msg: "Можливо авто ДРГ - перевірка!"  }, 
-            { img: "./images/no-image.webp", brand: "Mitsubishi Outlander", number: "1637", msg: "Можливо авто ДРГ - перевірка!"  }, 
+            { img: "./images/no-image.webp", brand: "Volkswagen Tiguan", number: "АР 4646 СК", msg: "Військові РФ у цивільному під погрозою зброї забрали авто Volkswagen Tiguan"  }, 
+            { img: "./images/no-image.webp", brand: "Mitsubishi Outlander", number: "1637", msg: "Аутлендер сині номери. Орки викрали до Бердянська"  }, 
             { img: "./images/АІ4610ОМ.webp", brand: "Volkswagen Passat", number: "АІ 4610 ОМ", msg: "Можливо авто ДРГ - перевірка!"  },
-            { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 2068 КХ", msg: "Можливо авто ДРГ - перевірка!"  },
-            { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 7962 ОА", msg: "Можливо авто ДРГ - перевірка!"  },
+            { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 2068 КХ", msg: "Hyundai Tucson-Надійшло звернення ТОВ Охорона холдінг (т. 0504799899, 0675444200) з повідомленням про те, що 09.03.2022 на території Ботієвської ВЕС - Запорізька область, Приазовського району, внаслідок протиправних дій окупантів у ТОВ ОХ-СЛАВУТИЧ вилучено авто"  },
+            { img: "./images/no-image.webp", brand: "Hyundai Tucson", number: "АА 7962 ОА", msg: "Hyundai Tucson-Надійшло звернення ТОВ Охорона холдінг (т. 0504799899, 0675444200) з повідомленням про те, що 09.03.2022 на території Ботієвської ВЕС - Запорізька область, Приазовського району, внаслідок протиправних дій окупантів у ТОВ ОХ-СЛАВУТИЧ вилучено авто"  },
             { img: "./images/no-image.webp", brand: " Lanos", number: "АР 3656 ??", msg: "Сріблястий тонований ланос. Чотири людини узбецької національності, документа на автомобіль немає, паливний бак повний, їдуть у бік Запоріжжя з Бердянська! Людину побили та забрали автомобіль! Їхня мета прорватися будь-яким способом у бік Львова"  },
             { img: "./images/no-image.webp", brand: "Mitsubishi L200", number: "АР 3557 НВ", msg: "Мітсубісі Л-200. Викрали вороги в с.Ботієво Приазовського району з підприємства."  },
             //{ img: "./images/АР1432НI.png", brand: "Lexus GS300", number: "АР 1432 НІ" }, 16.03.22 по информации киберов удалить
