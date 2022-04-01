@@ -13,9 +13,9 @@ const showList = () => {
 
      .forEach((e) => {
             const li = document.createElement("li");
-            li.innerHTML = `<img onclick="openImg(' ${e.img} ')" class="img-size" src=" ${e.img} " alt="-" title=" ${e.number} ">
+            li.innerHTML = `<img onclick="openImg(' ${e.img} ')" class="img-size cursor-pointer" src=" ${e.img} " alt="-" title=" ${e.number} ">
                             <span title=" ${e.brand} "> ${e.brand}, </span>
-                            <strong  title=" ${e.number} " class="color-primary"  onclick="openMsg('${e.msg}')"> ${e.number} </strong>`;            
+                            <strong  title=" ${e.number} " class="color-primary cursor-pointer"  onclick="openMsg('${e.msg}')"> ${e.number} </strong>`;            
             results.appendChild(li);
      });
 };
