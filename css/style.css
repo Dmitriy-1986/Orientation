@@ -250,6 +250,10 @@ button:focus, button:active:focus  {
     box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
 }
 
+.cursor-pointer {
+    cursor: pointer;	
+}
+
 .scrollToTopBtn {
     position: fixed;
     bottom: 50px;
