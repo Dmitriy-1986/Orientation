@@ -22,7 +22,7 @@ let legend = document.createElement('legend');
 fieldset.appendChild(legend);
 
 let small = document.createElement('small');
-small.innerHTML = '*Пошук здійснюється по цифрах';
+small.innerHTML = `<span class='span-small'>*</span>Пошук здійснюється по цифрах`;
 legend.appendChild(small);
 
 let inputSearch = document.createElement('input');
