@@ -15,10 +15,17 @@ titleOrientation.classList.add('tracking-in-expand');
 titleOrientation.innerHTML = 'ОРІЄНТУВАННЯ';
 header.appendChild(titleOrientation);
 
+let fieldset = document.createElement('fieldset');
+fieldset.style.borderRadius = '5px';
+header.appendChild(fieldset);
+
+let legend = document.createElement('legend');
+fieldset.appendChild(legend);
+
 let small = document.createElement('small');
 small.style.color = 'white';
 small.innerHTML = '*Пошук здійснюється по цифрах, фото та номер клікабельні';
-header.appendChild(small);
+legend.appendChild(small);
 
 let inputSearch = document.createElement('input');
 inputSearch.id = "search"; 
