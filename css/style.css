@@ -311,12 +311,6 @@ button:focus, button:active:focus  {
     }
    
     small {
-	 font-size: 11px;    
-    }
-}
-
-@media (max-width: 362px) {
-    small {
 	 font-size: 10px;    
     }
 }
