@@ -23,7 +23,7 @@ fieldset.appendChild(legend);
 
 let small = document.createElement('small');
 small.style.color = 'white';
-small.innerHTML = '*Пошук здійснюється по цифрах, фото та номер клікабельні';
+small.innerHTML = '*Пошук здійснюється по цифрах';
 legend.appendChild(small);
 
 let inputSearch = document.createElement('input');
