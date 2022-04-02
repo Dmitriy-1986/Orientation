@@ -184,13 +184,15 @@ small {
 .span-small {
 	animation-name: changeColor;
 	animation-iteration-count: infinite;
-	animation-delay: 0.1s;
-	animation-duration: 3s; 
+	animation-delay: 1s;
+	animation-duration: 2s; 
+	transition-duration: 500ms;
 }
 
 @keyframes changeColor {
-    from {color: #6c757d;} 
-    to {color: #dc3545;}
+    0% {color: #6c757d;} 
+    50% {color: #6c757d;} 
+    100% {color: #dc3545;}
 }
 
 input {
