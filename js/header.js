@@ -32,3 +32,14 @@ inputSearch.placeholder =  'Шукати по орієнтуванням...';
 inputSearch.setAttribute('autocomplete', 'off');
 inputSearch.setAttribute('type', 'search');
 fieldset.appendChild(inputSearch);
+
+/* Наброски на футер
+
+var now = new Date().toLocaleString();
+
+let sumCar = document.createElement('span');
+sumCar.style.color = 'white';
+sumCar.innerHTML = 'Всього: <span style=\'color: red;\'>' + data.length + '</span> орієнтувань, ';
+sumCar.innerHTML += 'на ' + now;
+header.appendChild(sumCar);
+*/
