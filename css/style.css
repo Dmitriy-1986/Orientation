@@ -238,18 +238,10 @@ li {
 
 .color-primary:hover {
       border-bottom: 1px solid #0d6efd;
-      animation-iteration-count: 1;
-      animation-name: numberOpacity;
-      animation-duration: 500ms;
-}
-
-@keyframes numberOpacity {
-  from {
-	   opacity: 0; 
-	}
-  to {
-	   opacity: 1; 
-	}
+      -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+      -o-transition-duration: 1s;
+	  transition-duration: 1s;
 }
 
 button {
