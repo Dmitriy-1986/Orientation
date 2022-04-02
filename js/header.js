@@ -22,7 +22,6 @@ let legend = document.createElement('legend');
 fieldset.appendChild(legend);
 
 let small = document.createElement('small');
-small.style.color = 'white';
 small.innerHTML = '*Пошук здійснюється по цифрах';
 legend.appendChild(small);
 
