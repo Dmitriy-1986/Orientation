@@ -25,7 +25,6 @@ setTimeout(showList, 2000);
 
 search.addEventListener("input", (event) => {
     search_term = event.target.value.toLowerCase();
-    search_term += event.target.value.trim();
     showList();
 });
 
