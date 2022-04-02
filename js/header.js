@@ -17,7 +17,7 @@ header.appendChild(titleOrientation);
 
 let small = document.createElement('small');
 small.style.color = 'white';
-small.innerHTML = '*Пошук здійснюється по цифрах';
+small.innerHTML = '*Пошук здійснюється по цифрах, фото та номер клікабельні';
 header.appendChild(small);
 
 let inputSearch = document.createElement('input');
