@@ -309,4 +309,32 @@ button:focus, button:active:focus  {
      .scrollToTopBtn {
           right: 15px;
     }
+   
+    small {
+	 font-size: 11px;    
+    }
+}
+
+@media (max-width: 362px) {
+    small {
+	 font-size: 10px;    
+    }
+}
+
+@media (max-width: 336px) {
+    small {
+	 font-size: 9px;    
+    }
+}
+
+@media (max-width: 304px) {
+    small {
+	 font-size: 8px;    
+    }
+}
+
+@media (max-width: 273px) {
+    small {
+	 font-size: 7px;    
+    }
 }
