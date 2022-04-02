@@ -168,8 +168,7 @@ h2 {
 }
 
 .content {
-      column-count: 3;
-      margin-top: 10px;
+      column-count: 3;    
       height: 100%;
 }
 
