@@ -16,7 +16,6 @@ titleOrientation.innerHTML = 'ОРІЄНТУВАННЯ';
 header.appendChild(titleOrientation);
 
 let fieldset = document.createElement('fieldset');
-fieldset.style.borderRadius = '5px';
 header.appendChild(fieldset);
 
 let legend = document.createElement('legend');
