@@ -4,6 +4,7 @@ let search_term = "";
 
 const showList = () => {
       results.innerHTML = "";
+      data.reverse();//реверс массива
       data.filter((item) => {
          return (
              item.number.toLowerCase().includes(search_term) ||
