@@ -32,4 +32,4 @@ inputSearch.autofocus = true;
 inputSearch.placeholder =  'Шукати по орієнтуванням...';
 inputSearch.setAttribute('autocomplete', 'off');
 inputSearch.setAttribute('type', 'search');
-header.appendChild(inputSearch);
+fieldset.appendChild(inputSearch);
