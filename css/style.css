@@ -246,6 +246,7 @@ li {
 }
 
 .img-size:hover {
+      transition-duration: 1s;
       box-shadow: 0px 0px 4px 0px rgba(220, 53, 69);	
 }
 
