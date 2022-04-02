@@ -255,11 +255,8 @@ li {
 }
 
 .color-primary:hover {
-      border-bottom: 1px solid #0d6efd;
-      -webkit-transition-duration: 1s;
-      -moz-transition-duration: 1s;
-      -o-transition-duration: 1s;
-	  transition-duration: 1s;
+      transition-duration: 1s;
+      border-bottom: 1px solid #0d6efd;   
 }
 
 button {
