@@ -7,9 +7,7 @@ const showList = () => {
       data.filter((item) => {
          return (
              item.number.toLowerCase().includes(search_term) ||
-             item.brand.toLowerCase().includes(search_term) ||
-             item.number.trim().includes(search_term) ||
-             item.brand.trim().includes(search_term) 
+             item.brand.toLowerCase().includes(search_term)
          );
       })
 
@@ -27,6 +25,7 @@ setTimeout(showList, 2000);
 
 search.addEventListener("input", (event) => {
     search_term = event.target.value.toLowerCase();
+    search_term += event.target.value.trim();
     showList();
 });
 
