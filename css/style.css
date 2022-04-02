@@ -181,6 +181,17 @@ small {
       color: #6c757d;
 }
 
+.span-small {
+	animation-name: changeColor;
+	animation-delay: 0.1s;
+	animation-duration: 3s; 
+}
+
+@keyframes changeColor {
+    from {color: #6c757d;} 
+    to {color: #dc3545;}
+}
+
 input {
       display: block;
       margin: 10px 0 10px 0;
