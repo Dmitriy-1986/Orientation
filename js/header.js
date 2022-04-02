@@ -15,6 +15,11 @@ titleOrientation.classList.add('tracking-in-expand');
 titleOrientation.innerHTML = 'ОРІЄНТУВАННЯ';
 header.appendChild(titleOrientation);
 
+let small = document.createElement('small');
+small.style.color = 'white';
+small.innerHTML = '*Пошук здійснюється по цифрам';
+header.appendChild(small);
+
 let inputSearch = document.createElement('input');
 inputSearch.id = "search"; 
 inputSearch.autofocus = true;
