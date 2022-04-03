@@ -1,6 +1,6 @@
 let header = document.getElementById('header');
 let marquee = document.createElement('marquee');
-marquee.setAttribute('loop', '3');
+marquee.setAttribute('loop', '1');
 marquee.setAttribute('behavior', 'scroll');
 header.appendChild(marquee);
 let strongMarqueeStr = document.createElement('strong');
