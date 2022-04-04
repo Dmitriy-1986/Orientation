@@ -326,7 +326,7 @@ button:focus, button:active:focus  {
       }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
      .content {
           column-count: 2;
      }
