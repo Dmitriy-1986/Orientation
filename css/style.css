@@ -35,8 +35,17 @@ body::-webkit-scrollbar-thumb {
 	background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
 }
 
+/*
 marquee {
 	color: #dc3545;
+}
+*/
+.start-print {
+        display: block;
+        color:#dc3545; 
+        font-size: 12px; 
+        font-weight: bold;
+        text-align: center;
 }
 
 ol, ul {
