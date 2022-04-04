@@ -130,7 +130,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #0f1115 !important;
+    /*background-color: #0f1115 !important;*/
+    background-color:  rgba(15, 17, 21, 0.9);
 }
 
 h2 {
