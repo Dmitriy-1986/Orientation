@@ -60,6 +60,13 @@ img, svg {
     vertical-align: middle;
 }
 
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;   
+}
+
 .container {
          width: 100%;
          padding-right: .75rem;
