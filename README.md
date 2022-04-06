@@ -46,6 +46,17 @@ for(let i = 0; i < dataCopy.length; i++) {
 <hr>
 <h2>Эффект печатной машинки</h2>
 <pre>
+//CSS
+
+.start-print {
+        display: block;
+        color:#dc3545; 
+        font-size: 12px; 
+        font-weight: bold;
+        text-align: center;
+}
+------------------------
+//JS
 let delay = 55;
 let nextm = 0;
 let msg = [
