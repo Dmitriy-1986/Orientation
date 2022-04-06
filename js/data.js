@@ -16,7 +16,7 @@ const data = [
             { img: "./images/AP404G.jpg", brand: "Ford Ranger", number: "АР 404 G", msg: "Авто викрадено з в/ч 3042"  },
             { img: "./images/no-image.webp", brand: "Причеп", number: "АР 785 G", msg: "Авто викрадено з в/ч 3042"  },
             { img: "./images/no-image.webp", brand: "Причеп", number: "АР 784 G", msg: "Авто викрадено з в/ч 3042"  },
-            { img: "./images/no-image.webp", brand: "Причеп Спец", number: "АР 783 G", msg: "Авто викрадено з в/ч 3042"  },
+            { img: "./images/no-image.webp", brand: "Причеп", number: "АР 783 G", msg: "Авто викрадено з в/ч 3042"  },
             { img: "./images/AP408G.jpg", brand: "Renault Duster", number: "АР 408 G", msg: "Авто викрадено з в/ч 3042"  },
             { img: "./images/no-image.webp", brand: "Ford Tourneo", number: "АР 402 G", msg: "Авто викрадено з в/ч 3042"  },
             { img: "./images/no-image.webp", brand: "Ford Tourneo", number: "АР 403 G", msg: "Авто викрадено з в/ч 3042"  },
