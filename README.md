@@ -44,7 +44,7 @@ for(let i = 0; i < dataCopy.length; i++) {
 };       
 </pre>
 <hr>
-<h2>эффект печатной машинки</h2>
+<h2>Эффект печатной машинки</h2>
 <pre>
 let delay = 55;
 let nextm = 0;
