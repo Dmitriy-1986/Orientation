@@ -367,7 +367,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "Mercedes-Benz Sprinter", number: "AH 0321 EB", msg: "м. Токмак ОРКИ відбирають у волонтерів, які евакуюють людей, маршрутки-спринтери. Таким чином хотять пробитися до Запоріжжя"  },
             { img: "./images/no-image.webp", brand: "Mercedes-Benz Sprinter", number: "AP 6215 HX", msg: "м. Токмак ОРКИ відбирають у волонтерів, які евакуюють людей, маршрутки-спринтери. Таким чином хотять пробитися до Запоріжжя"  },
             { img: "./images/no-image.webp", brand: "Mercedes-Benz Sprinter", number: "AP 6218 HX", msg: "м. Токмак ОРКИ відбирають у волонтерів, які евакуюють людей, маршрутки-спринтери. Таким чином хотять пробитися до Запоріжжя"  },
-            //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
+            { img: "./images/no-image.webp", brand: "Mercedes-Benz Sprinter", number: "AH 0321 EB", msg: "м. Токмак ОРКИ відбирають у волонтерів, які евакуюють людей, маршрутки-спринтери. Таким чином хотять пробитися до Запоріжжя"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  }, 
