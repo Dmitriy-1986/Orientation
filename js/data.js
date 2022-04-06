@@ -55,7 +55,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "ЗАЗ", number: "АН 4877 МА", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
             { img: "./images/no-image.webp", brand: "Niva", number: "ВВ 4460 СР", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
             { img: "./images/no-image.webp", brand: "Газ 2705-434", number: "АХ 4062 ІО", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
-            { img: "./images/no-image.webp", brand: "Ніва Темносиня", number: "? 2333 ?", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
+            { img: "./images/no-image.webp", brand: "Ніва (автомобиль)", number: "? 2333 ?", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
             { img: "./images/no-image.webp", brand: "Fiat Doblo", number: "ВВ 5791 СО", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
             { img: "./images/no-image.webp", brand: "Рута 25D", number: "ВА 1906 ВО", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
             { img: "./images/no-image.webp", brand: "ПАЗ 4234", number: "ВМ 3848 АА", msg: "Викрадені авто, що можуть використовуватись ДРГ"  },
