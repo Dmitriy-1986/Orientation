@@ -257,6 +257,11 @@ li {
       color: #888888;
 }
 
+li span a {
+      color: #888888; 
+      text-decoration: none;
+}
+
 .size-id {
       font-size: 11px;
 }
