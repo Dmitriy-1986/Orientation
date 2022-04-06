@@ -262,6 +262,11 @@ li span a {
       text-decoration: none;
 }
 
+li span a:hover { 
+      transition-duration: 1s;
+      border-bottom: 1px solid #888888;
+}
+
 .size-id {
       font-size: 11px;
 }
