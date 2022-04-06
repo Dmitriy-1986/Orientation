@@ -38,4 +38,3 @@ function demoFromHTML() {
             }, margins
         );
     }
-</script>
