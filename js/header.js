@@ -1,21 +1,5 @@
 let header = document.getElementById('header');
 
-/*
-let message = document.createElement('div');
-message.id = 'message';
-header.appendChild(message);
-
-
-let marquee = document.createElement('marquee');
-marquee.setAttribute('loop', '1');
-marquee.setAttribute('behavior', 'scroll');
-header.appendChild(marquee);
-let strongMarqueeStr = document.createElement('strong');
-strongMarqueeStr.innerHTML = `Увага! Особи за орієнтуванням при собі можуть
-                            мати автоматичну та іншу зброю. При затриманні 
-                            дотримуватися заходів особистої безпеки!`;
-marquee.appendChild(strongMarqueeStr);*/
-
 let titleOrientation = document.createElement('h2');
 titleOrientation.setAttribute('title', 'ОРІЄНТУВАННЯ');
 titleOrientation.classList.add('tracking-in-expand');
