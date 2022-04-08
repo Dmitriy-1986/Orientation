@@ -38,3 +38,8 @@ function openImg(img) {
 function openMsg(message) {
     alert(message);
 }
+
+/* Reload page */
+setTimeout(function(){
+    location.reload();
+}, 1000);
