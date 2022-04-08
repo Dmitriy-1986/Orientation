@@ -42,4 +42,4 @@ function openMsg(message) {
 /* Reload page */
 setTimeout(function(){
     location.reload();
-}, 1000);
+}, 36000000);
