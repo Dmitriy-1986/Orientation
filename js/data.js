@@ -374,7 +374,7 @@ const data = [
             { img: "./images/АР4100ВМ.webp", brand: "Kia Sportage", number: "АР4100ВМ", msg: "КІА SPORTAGE - AP4100BM, цвет - мокрый асфальт. Автомобиль с Энергодара. Возможно передвижение ДРГ"  }, 
             //{ img: "./images/АР1882НТ.webp", brand: "Nissan Rogue", number: "АР 1882 НТ", msg: "Фотографує блок пости, інформація за 08.04.22"  }, 
             //Затриамано Шведські журналісти - 08.04.22
-            //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  }, 
+            //{ img: "./images/АЕ8479РС.webp", brand: "Skoda Octavia", number: "AE 8479 PC", msg: "поставлен 12.03, фабула Невідомі особи заволоділи транспортним засобом Shkoda Octavia днз АЕ8479РС"  }, 
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
