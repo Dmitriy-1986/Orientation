@@ -24,13 +24,11 @@ inputSearch.setAttribute('autocomplete', 'off');
 inputSearch.setAttribute('type', 'search');
 fieldset.appendChild(inputSearch);
 
-/* Наброски на футер
-
+/* Наброски на футер*/
 var now = new Date().toLocaleString();
+let footerInfo = document.querySelectorAll('footer-info');
+footerInfo.innerHTML = 'Всього: <span style=\'color: #dc3545;\'>' + data.length + '</span> орієнтувань, ';
+footerInfo.innerHTML += 'станом на ' + now;
 
-let sumCar = document.createElement('span');
-sumCar.style.color = 'white';
-sumCar.innerHTML = 'Всього: <span style=\'color: red;\'>' + data.length + '</span> орієнтувань, ';
-sumCar.innerHTML += 'на ' + now;
-header.appendChild(sumCar);
-*/
+
+
