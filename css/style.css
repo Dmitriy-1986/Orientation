@@ -252,7 +252,7 @@ li span a {
 
 li span a:hover { 
       color: #ffffff;
-      box-shadow: inset 100px 0 #888888;
+      box-shadow: inset 200px 0 #888888;
 }
 
 .size-id {
