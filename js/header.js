@@ -25,7 +25,7 @@ inputSearch.setAttribute('type', 'search');
 fieldset.appendChild(inputSearch);
 
 /* Наброски на футер*/
-var now = new Date().toLocaleString();
+const now = new Date().toLocaleString();
 
 let footer = document.getElementById('footer');
 let footerInfo = document.createElement('p');
