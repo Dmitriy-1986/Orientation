@@ -26,9 +26,11 @@ fieldset.appendChild(inputSearch);
 
 /* Наброски на футер*/
 var now = new Date().toLocaleString();
-let footerInfo = document.querySelectorAll('footer-info');
+
+let footer = document.getElementById('footer');
+let footerInfo = document.createElement('p');
 footerInfo.innerHTML = 'Всього: <span style=\'color: #dc3545;\'>' + data.length + '</span> орієнтувань, ';
 footerInfo.innerHTML += 'станом на ' + now;
-
+footer.appendChild(footerInfo);
 
 
