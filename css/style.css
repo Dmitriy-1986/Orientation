@@ -303,11 +303,17 @@ button {
 }
 
 button:focus, button:active:focus  {
-    box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
+      box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
 }
 
 .cursor-pointer {
-    cursor: pointer;	
+      cursor: pointer;	
+}
+
+footer {
+      border-top: 1px solid #6c757d; 
+      margin-top: 10px;
+      color: #6c757d; 
 }
 
 .scrollToTopBtn {
