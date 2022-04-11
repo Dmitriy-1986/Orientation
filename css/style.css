@@ -267,11 +267,12 @@ li span a:hover {
 .img-size {
       width: 70px;
       margin-right: 5px;
-      transition: box-shadow .3s;
+      transition: box-shadow .3s, transform .3s;
 }
 
 .img-size:hover {
       box-shadow: 0px 0px 4px 0px rgba(220, 53, 69);	
+      transform: scale(1.2);
 }
 
 .color-primary {
