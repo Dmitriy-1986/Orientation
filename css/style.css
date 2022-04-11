@@ -129,7 +129,8 @@ header {
 
 h2 {
       text-align: center;
-      color: #dc3545;
+      /*color: #dc3545;*/
+      color: rgb(220, 36, 48);
       margin: 20px 0 0 0;
       font-weight: 500;
       line-height: 1.2;
