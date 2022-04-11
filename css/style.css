@@ -266,10 +266,10 @@ li span a:hover {
 .img-size {
       width: 70px;
       margin-right: 5px;
+      transition: box-shadow .3s;
 }
 
 .img-size:hover {
-      transition-duration: 1s;
       box-shadow: 0px 0px 4px 0px rgba(220, 53, 69);	
 }
 
