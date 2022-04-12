@@ -323,7 +323,7 @@ iframe {
 
 .scrollToTopBtn {
     position: fixed;
-    bottom: 50px;
+    bottom: 30px;
     right: 50px;
     z-index: 100;
     display: none;
