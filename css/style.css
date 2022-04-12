@@ -329,8 +329,8 @@ footer {
 
 .messenger-links img {
     position: fixed;
-    bottom: 80px;
-    right: 25px;
+    bottom: 85px;
+    right: 30px;
     max-width: 55px;
     transition: all 0.3s;
     cursor: pointer;
