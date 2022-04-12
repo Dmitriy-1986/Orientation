@@ -368,6 +368,10 @@ footer {
      .scrollToTopBtn {
           right: 15px;
     }
+	
+    .messenger-links img {
+          right: 15px;	    
+    }
    
     small {
 	 font-size: 10px;    
