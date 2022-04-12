@@ -367,6 +367,10 @@ iframe {
     small {
 	 font-size: 10px;    
     }
+
+    iframe {
+        right: 0px !important;
+    }
 }
 
 @media (max-width: 336px) {
