@@ -317,6 +317,10 @@ footer {
       color: #6c757d; 
 }
 
+iframe {
+     right: 30px !important;
+}
+
 .scrollToTopBtn {
     position: fixed;
     bottom: 50px;
