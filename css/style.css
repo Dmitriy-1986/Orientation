@@ -340,6 +340,17 @@ footer {
   transform: scale(1.1);
 }
 
+.hover-block {
+  width: 55px;
+  height: 55px;
+  background: grey;
+  opacity: 0;
+}
+
+.hover-block:hover {
+  opacity: 0.5;
+}
+
 .top-btn-img {
     width: 15px;
 }
