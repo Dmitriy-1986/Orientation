@@ -317,14 +317,10 @@ footer {
       color: #6c757d; 
 }
 
-iframe {
-     right: 30px !important;
-}
-
 .scrollToTopBtn {
     position: fixed;
     bottom: 30px;
-    right: 50px;
+    right: 30px;
     z-index: 100;
     display: none;
     padding: 8px 4px;
@@ -366,10 +362,6 @@ iframe {
    
     small {
 	 font-size: 10px;    
-    }
-
-    iframe {
-        right: 0px !important;
     }
 }
 
