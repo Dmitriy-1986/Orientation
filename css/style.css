@@ -15,7 +15,6 @@ body {
      font-weight: 400;
      line-height: 1.5;
      font-family: Montserrat, sans-serif !important;	
-     /*background-color: #0f1115 !important;*/
      background-image: linear-gradient(to top, rgba(15, 17, 21, 0.9), rgba(15, 17, 21, 0.9)), url(../images/tesla-cybertrack.webp);
      background-attachment: fixed;
      background-size: cover;
