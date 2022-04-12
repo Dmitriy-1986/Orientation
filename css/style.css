@@ -331,7 +331,7 @@ footer {
     position: fixed;
     bottom: 80px;
     right: 25px;
-    max-width: 45px;
+    max-width: 55px;
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -366,7 +366,7 @@ footer {
       }
   
      .scrollToTopBtn {
-          right: 15px;
+          right: 25px;
     }
 	
     .messenger-links img {
