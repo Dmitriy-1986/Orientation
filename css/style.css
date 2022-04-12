@@ -319,7 +319,7 @@ footer {
 
 .scrollToTopBtn {
     position: fixed;
-    bottom: 85px;
+    bottom: 95px;
     right: 35px;
     z-index: 100;
     display: none;
