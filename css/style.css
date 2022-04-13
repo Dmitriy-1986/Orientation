@@ -332,23 +332,12 @@ footer {
     bottom: 30px;
     right: 30px;
     max-width: 55px;
-    transition: all 0.3s;
+    transition: transform .8s ease-in-out;
     cursor: pointer;
 }
 
 .messenger-links img:hover {
-  transform: scale(1.1);
-}
-
-.hover-block {
-  width: 55px;
-  height: 55px;
-  background: grey;
-  opacity: 0;
-}
-
-.hover-block:hover {
-  opacity: 0.5;
+  transform: rotate(360deg);
 }
 
 .top-btn-img {
