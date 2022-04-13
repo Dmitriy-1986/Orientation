@@ -319,12 +319,17 @@ footer {
 
 .scrollToTopBtn {
     position: fixed;
-    bottom: 95px;
+    bottom: 105px;
     right: 35px;
     z-index: 100;
     display: none;
     padding: 8px 4px;
     cursor: pointer;
+    transition: transform .8s ease-in-out;
+}
+
+.scrollToTopBtn:hover  {
+     -webkit-filter: opacity(80%);
 }
 
 .messenger-links img {
