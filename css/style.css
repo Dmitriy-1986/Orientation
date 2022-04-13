@@ -337,7 +337,8 @@ footer {
 }
 
 .messenger-links img:hover {
-  transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-filter: opacity(80%);
 }
 
 .top-btn-img {
