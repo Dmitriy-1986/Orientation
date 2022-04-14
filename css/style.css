@@ -21,7 +21,7 @@ body {
 }
 
 .light-theme {
-     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.521)),url(./PoliceCar.webp);
+     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.521)),url(./images/PoliceCar.webp);
 }
 
 body::-webkit-scrollbar-track {
