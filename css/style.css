@@ -362,6 +362,10 @@ footer {
       border: 1px solid white;
 }
 
+.btn-toggle:hover  {
+     -webkit-filter: opacity(80%);
+}
+
 .light-theme {
       background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)),url(../images/PoliceCar.webp);
 }
