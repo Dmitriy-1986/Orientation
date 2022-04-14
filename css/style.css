@@ -415,14 +415,11 @@ footer {
 }
  
 .btn-toggle::after {   
-      content: url(../images/theme-dark.svg); 
-      
- 
+      content: url(../images/theme-dark.svg);       
 }
  
 .light-theme .btn-toggle::after {
       content: url(../images/theme-light.svg);
- 
 }
 /*  //Light theme styles */
 
