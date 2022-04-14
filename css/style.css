@@ -367,7 +367,7 @@ footer {
 }
 
 .light-theme {
-      background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)),url(../images/PoliceCar.webp);
+      background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)), url(../images/PoliceCar.webp);
 }
 
 .light-theme li {
@@ -443,7 +443,7 @@ footer {
       }
 
       .light-theme {
-            background-image: linear-gradient(to top, rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.521)),url(../images/PoliceCarTablet.webp);
+            background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)), url(../images/PoliceCarTablet.webp);
       }
 }
 
@@ -469,7 +469,7 @@ footer {
     }
 
     .light-theme {
-      background-image: linear-gradient(to top, rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.521)),url(../images/Ford-Police-Car.webp);
+      background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)), url(../images/Ford-Police-Car.webp);
     }
 }
 
