@@ -21,7 +21,7 @@ body {
 }
 
 .light-theme {
-     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.521)),url(./images/PoliceCar.webp);
+     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.521)),url(./images/PoliceCar.webp) !important;
 }
 
 .btn-toggle::after {
