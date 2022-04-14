@@ -454,6 +454,10 @@ footer {
      .scrollToTopBtn {
           right: 20px;
     }
+
+    .btn-toggle {
+          right: 20px;
+    }
 	
     .messenger-links img {
           right: 15px;	    
