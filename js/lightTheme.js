@@ -1,4 +1,4 @@
- const btn = document.querySelector('btn-toggle');
-       btn.addEventListener('click', function() {
+ const btnLightTheme = document.querySelector('btn-toggle');
+       btnLightTheme.addEventListener('click', function() {
        document.body.classList.toggle('light-theme');
 });
