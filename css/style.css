@@ -317,7 +317,7 @@ footer {
 
 .scrollToTopBtn {
     position: fixed;
-    bottom: 164px;
+    bottom: 234px;
     right: 37px;
     display: none;
     padding: 8px 4px;
@@ -364,7 +364,7 @@ footer {
 /* Light theme styles */
 .btn-toggle {
       position: fixed;
-      bottom: 104px;
+      bottom: 174px;
       right: 37px;
       max-width: 55px;
       transition: transform .8s ease-in-out;
