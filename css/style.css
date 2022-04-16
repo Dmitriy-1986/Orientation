@@ -319,7 +319,6 @@ footer {
     position: fixed;
     bottom: 164px;
     right: 37px;
-    z-index: 100;
     display: none;
     padding: 8px 4px;
     cursor: pointer;
