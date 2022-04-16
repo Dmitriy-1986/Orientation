@@ -13,4 +13,16 @@ let telegramImg = document.createElement('img');
     telegramImg.setAttribute('alt', 'Telegram');
     telegramLink.appendChild(telegramImg);                 
                     
+//myrotvorets
+let myrotvoretsLink = document.createElement('a');
+    myrotvoretsLink.setAttribute('title', 'Миротворець');
+    myrotvoretsLink.setAttribute('href', 'https://myrotvorets.center/');
+    myrotvoretsmLink.setAttribute('target', '_blank');
+    myrotvoretsLink.classList.add('myrotvorets-links');
+    myrotvoretsLink.id = "telegramLink";
+    bodyElement.appendChild(myrotvoretsLink);
 
+let myrotvoretsImg = document.createElement('img');
+    myrotvoretsImg.setAttribute('src', './images/myrotvorets.svg');
+    myrotvoretsImg.setAttribute('alt', 'Миротворець');
+    myrotvoretsLink.appendChild(myrotvoretsImg);  
