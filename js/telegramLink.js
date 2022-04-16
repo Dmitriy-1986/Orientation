@@ -17,7 +17,7 @@ let telegramImg = document.createElement('img');
 let myrotvoretsLink = document.createElement('a');
     myrotvoretsLink.setAttribute('title', 'Миротворець');
     myrotvoretsLink.setAttribute('href', 'https://myrotvorets.center/');
-    myrotvoretsmLink.setAttribute('target', '_blank');
+    myrotvoretsLink.setAttribute('target', '_blank');
     myrotvoretsLink.classList.add('myrotvorets-links');
     myrotvoretsLink.id = "telegramLink";
     bodyElement.appendChild(myrotvoretsLink);
