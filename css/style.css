@@ -343,13 +343,18 @@ footer {
     -webkit-filter: opacity(80%);
 }
 
-.myrotvorets-links {
+.myrotvorets-links img {
     position: fixed;
     bottom: 30px;
     right: 30px;
     max-width: 55px;
     transition: transform .8s ease-in-out;
     cursor: pointer;
+}
+
+.myrotvorets-links img:hover {
+    transform: rotate(360deg);
+    -webkit-filter: opacity(80%);
 }
 
 .top-btn-img {
