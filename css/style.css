@@ -364,7 +364,7 @@ footer {
 /* Light theme styles */
 .btn-toggle {
       position: fixed;
-      top: 25px;
+      top: 17px;
       z-index: 2;
       right: 37px;
       max-width: 55px;
