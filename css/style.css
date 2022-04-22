@@ -326,7 +326,7 @@ footer {
 }
 
 .scrollToTopBtn:hover  {
-     -webkit-filter: opacity(80%);
+     filter: brightness(120%);
 }
 
 .messenger-links img {
@@ -340,7 +340,7 @@ footer {
 
 .messenger-links img:hover {
     transform: rotate(360deg);
-    -webkit-filter: opacity(80%);
+    filter: brightness(120%);
 }
 
 .myrotvorets-links img {
@@ -354,7 +354,7 @@ footer {
 
 .myrotvorets-links img:hover {
     transform: rotate(360deg);
-    -webkit-filter: opacity(80%);
+    filter: brightness(120%);
 }
 
 .top-btn-img {
@@ -377,7 +377,7 @@ footer {
 }
 
 .btn-toggle:hover  {
-     -webkit-filter: opacity(80%);
+     filter: brightness(120%);
 }
 
 .light-theme {
