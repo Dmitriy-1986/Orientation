@@ -330,6 +330,12 @@ footer {
      filter: brightness(120%);
 }
 
+@media (max-height: 390px) {
+    .scrollToTopBtn {
+	 display: none;    
+    }
+}
+
 .messenger-links img {
     position: fixed;
     bottom: 30px;
@@ -344,6 +350,12 @@ footer {
     filter: brightness(120%);
 }
 
+@media (max-height: 390px) {
+    .messenger-links {
+	 display: none;    
+    }
+}
+
 .myrotvorets-links img {
     position: fixed;
     bottom: 100px;
@@ -356,6 +368,12 @@ footer {
 .myrotvorets-links img:hover {
     transform: rotate(360deg);
     filter: brightness(120%);
+}
+
+@media (max-height: 390px) {
+    .myrotvorets-links {
+	 display: none;    
+    }
 }
 
 .top-btn-img {
