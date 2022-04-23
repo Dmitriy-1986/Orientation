@@ -463,33 +463,37 @@ footer {
 }
 
 @media (max-width: 400px) {
+      .content {
+          justify-content: start;
+      }
+
       li {
           font-size: 12px;
       }
   
      .scrollToTopBtn {
           right: 20px;
-    }
+     }
 
-    .btn-toggle {
+     .btn-toggle {
           right: 20px;
-    }
+     }
 	
-    .messenger-links img {
+     .messenger-links img {
           right: 15px;	    
-    }
+     }
    
-    .myrotvorets-links img {
+     .myrotvorets-links img {
 	  right: 15px;	   
-    }
+     }
 	
-    small {
+     small {
 	 font-size: 10px;    
-    }
+     }
 
-    .light-theme {
-      background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)), url(../images/Ford-Police-Car.webp);
-    }
+     .light-theme {
+          background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)), url(../images/Ford-Police-Car.webp);
+     }
 }
 
 @media (max-width: 336px) {
