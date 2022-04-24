@@ -1,4 +1,5 @@
 <a href="https://dmitriy-1986.github.io/Orientation/">www.orientation.pp.ua</a>
+<small>Сайт створено - Mar 6, 2022</small>
 <br><br>
 <h2>Высота, ширина окна</h2>
 <pre>
