@@ -458,6 +458,8 @@ footer {
 }
 /*  //Light theme styles */
 
+
+/* Media query */
 @media (max-width: 1399px) {
       body {
           font-size: 14px;
@@ -466,9 +468,7 @@ footer {
 
 @media (max-width: 1200px) {
       .content {
-          display: flex; 
-          justify-content: center; 
-          column-count: 1;
+          column-count: 2;
       }
 }
 
@@ -484,7 +484,7 @@ footer {
 
 @media (max-width: 400px) {
       .content {
-          justify-content: start;
+          column-count: 1;
       }
 
       li {
