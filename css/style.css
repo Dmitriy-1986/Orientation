@@ -174,8 +174,9 @@ h2 {
 
 .content {
       display: table-cell;
-      column-count: 3;    
+      column-count: 4;    
       height: 100%;
+      font-size: 11px;
 }
 
 .height-content {
@@ -468,7 +469,7 @@ footer {
 
 @media (max-width: 1200px) {
       .content {
-          column-count: 2;
+          column-count: 3;
       }
 }
 
@@ -482,7 +483,7 @@ footer {
       }
 	
       .content {
-          column-count: 1;
+          column-count: 2;
       }
 }
 
