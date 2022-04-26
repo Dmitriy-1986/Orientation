@@ -489,6 +489,8 @@ footer {
 
 @media (max-width: 770px) {
       .content {
+	  display: flex;
+          justify-content: center;
           column-count: 1;
       }
 }
