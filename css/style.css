@@ -487,6 +487,12 @@ footer {
       }
 }
 
+@media (max-width: 770px) {
+      .content {
+          column-count: 1;
+      }
+}
+
 @media (max-width: 400px) {
       li {
           font-size: 12px;
