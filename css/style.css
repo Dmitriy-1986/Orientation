@@ -173,9 +173,9 @@ h2 {
 }
 
 .content {
-      column-count: 2;    
+      display: table-cell;
+      column-count: 3;    
       height: 100%;
-      margin-left: 30px;
 }
 
 .height-content {
