@@ -271,7 +271,7 @@ li span a:hover {
 
 .img-size:hover {
       box-shadow: 0px 0px 4px 0px rgba(220, 53, 69);	
-      transform: scale(1.2);
+      transform: scale(1.6);
       filter: brightness(120%);
 }
 
