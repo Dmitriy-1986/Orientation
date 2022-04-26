@@ -175,6 +175,7 @@ h2 {
 .content {
       column-count: 2;    
       height: 100%;
+      margin-left: 30px;
 }
 
 .height-content {
