@@ -480,13 +480,13 @@ footer {
       .light-theme {
             background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)), url(../images/PoliceCarTablet.webp);
       }
-}
-
-@media (max-width: 400px) {
+	
       .content {
           column-count: 1;
       }
+}
 
+@media (max-width: 400px) {
       li {
           font-size: 12px;
       }
