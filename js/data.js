@@ -538,7 +538,7 @@ const data = [
             { img: "./images/no-image.webp", brand: "BMW", number: "АР 0001 НО", msg: "Инициатор розыска- Вознесеновский ОП ( 0991757885 )"  },
             { img: "./images/no-image.webp", brand: "ВАЗ 2108", number: "54470 НЕ", msg: "Инициатор розыска- Вознесеновский ОП ( 0991757885 )"  },
             { img: "./images/no-image.webp", brand: "ВАЗ 2109", number: "АР 0900 АК", msg: "Инициатор розыска- Вознесеновский ОП ( 0991757885 )"  },
-            //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
+            { img: "./images/no-image.webp", brand: "Opel Vectra", number: "АР 0045 СР", msg: "Инициатор ЗРУП Андрющенко"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
