@@ -244,7 +244,7 @@ li {
     margin: 5px 0 5px 0;
     color: #888888;
     display: inline-block;
-    width: 300px;
+    width: 257px;
 }
 
 li span a {
@@ -264,6 +264,7 @@ li span a:hover {
 }
 
 .img-size {
+      float: left;
       width: 70px;
       margin-right: 5px;
       transition: box-shadow .3s, transform .3s;
