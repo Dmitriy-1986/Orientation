@@ -37,14 +37,6 @@ body::-webkit-scrollbar-thumb {
 	background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
 }
 
-ol, ul {
-        list-style: auto;
-}
-
-img, svg {
-    vertical-align: middle;
-}
-
 .container-fluid {
     width: 100%;
     padding: 0;
@@ -173,8 +165,8 @@ h2 {
 }
 
 .content {
-      display: table-cell;
-      column-count: 4;    
+      /*display: table-cell;
+      column-count: 4; */   
       height: 100%;
       font-size: 11px;
 }
@@ -236,15 +228,23 @@ input::placeholder {
        opacity: 1;
 }
 
-ul {
-      list-style: none;
-      flex-direction: column;
-      padding: 0;
+ol, ul {
+        list-style: auto;
+	/* new style*/
+	display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+img, svg {
+    vertical-align: middle;
 }
 
 li {
-      margin: 5px 0 5px 0;
-      color: #888888;
+    margin: 5px 0 5px 0;
+    color: #888888;
+    display: inline-block;
+    width: 300px;
 }
 
 li span a {
@@ -467,11 +467,13 @@ footer {
       }
 }
 
+/*
 @media (max-width: 1200px) {
       .content {
           column-count: 3;
       }
 }
+*/
 
 @media (max-width: 992px) {
       body {
@@ -481,18 +483,20 @@ footer {
       .light-theme {
             background-image: linear-gradient(to top, rgba(221, 221, 221, 0.795), rgba(189, 180, 180, 0.76)), url(../images/PoliceCarTablet.webp);
       }
-	
+	/*
       .content {
           column-count: 2;
       }
+	*/	
 }
 
 @media (max-width: 770px) {
-      .content {
+      /*.content {
 	  display: flex;
           justify-content: center;
           column-count: 1;
       }
+	*/
 }
 
 @media (max-width: 400px) {
