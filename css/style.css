@@ -266,7 +266,7 @@ li span a:hover {
 .img-size {
       float: left;
       width: 70px;
-      margin-right: 5px;
+      margin-right: 10px;
       transition: box-shadow .3s, transform .3s;
 }
 
