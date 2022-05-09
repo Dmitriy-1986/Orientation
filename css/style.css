@@ -234,6 +234,7 @@ ol, ul {
 	display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+	padding: 0;
 }
 
 img, svg {
