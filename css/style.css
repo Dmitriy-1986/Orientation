@@ -244,7 +244,8 @@ li {
     margin: 5px 0 5px 0;
     color: #888888;
     display: inline-block;
-    width: 257px;
+    width: 240px;
+    border: 1px solid #262626;
 }
 
 li span a {
