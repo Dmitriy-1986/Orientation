@@ -1,4 +1,4 @@
 ## ОРІЄНТУВАННЯ  ##
-https://orientation.pp.ua
+(https://orientation.pp.ua "site")
 > <small>Створено - 06.03.2022</small>
 
