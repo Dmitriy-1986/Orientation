@@ -1,7 +1,7 @@
 ---
-ОРІЄНТУВАННЯ: Frontmatter section
+ОРІЄНТУВАННЯ: <a href="https://dmitriy-1986.github.io/Orientation/">www.orientation.pp.ua</a>
 ---
-<a href="https://dmitriy-1986.github.io/Orientation/">www.orientation.pp.ua</a>
+
 
 > <small>Створено - 06.03.2022</small>
 
