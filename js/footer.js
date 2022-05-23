@@ -12,7 +12,9 @@ footer.appendChild(footerInfo);
 
 let dateTime = document.getElementById('clock');
 function clock() {
-   dateTime.innerHTML = 'Поточна дата та час: <b style=\'color: #dc3545;\'>' + now + '</b>. ';
+   const date = new Date();
+   let time = date.toLocaleString();
+   dateTime.innerHTML = 'Поточна дата та час: <b style=\'color: #dc3545;\'>' + time + '</b>. ';
 }
 
 setInterval(clock, 1000);
