@@ -44,11 +44,10 @@ setTimeout(function(){
     location.reload();
 }, 3600000);
 
-/* Преобразует вводимый текст в верхний регистр
-let search = document.getElementById('search');
-search.addEventListener('blur', inputTextUpperCase);
-
+/* Преобразует вводимый текст в верхний регистр */
 function inputTextUpperCase() {
   search.value = search.value.toUpperCase();
 }
- */
+
+search.addEventListener('blur', inputTextUpperCase);
+
