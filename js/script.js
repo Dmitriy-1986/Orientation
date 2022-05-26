@@ -5,6 +5,7 @@ let search_term = "";
 const showList = () => {
       results.innerHTML = "";
       data.reverse();//реверс массива
+      
       data.filter((item) => {
          return (
              item.number.toLowerCase().includes(search_term) ||
@@ -29,17 +30,17 @@ search.addEventListener("input", (event) => {
     showList();
 });
 
-/* Open Img */
+/* Открыть картинку в новой вкладке */
 function openImg(img) {
      openWin = open(img);
 }
 
-/* Open Alert Msg */
+/* Открыть сообщение в алерт */
 function openMsg(message) {
     alert(message);
 }
 
-/* Reload page */
+/* Перезагрузка страницы через час */
 setTimeout(function(){
     location.reload();
 }, 3600000);
@@ -51,3 +52,10 @@ function inputTextUpperCase() {
 
 search.addEventListener('blur', inputTextUpperCase);
 
+/* Запрет на ввод спец символов и алфавита */
+function keyUp() {
+    let regValue = /[\А-Я+\а-я+\A-z+\a-z+\s+\-+\=+\№+\_+\.+\,+\/+\!+\@+\#+\$+\%+\^+\&+\*+\(+\)+\:+\;+\'+\"+\?+\<+\>+\~+\`+]/gi;
+    search.value = this.value.replace(regValue,'');
+}
+
+search.addEventListener('keyup', keyUp);
