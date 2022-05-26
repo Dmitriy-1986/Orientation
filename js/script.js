@@ -45,13 +45,6 @@ setTimeout(function(){
     location.reload();
 }, 3600000);
 
-/* Преобразует вводимый текст в верхний регистр 
-function inputTextUpperCase() {
-  search.value = search.value.toUpperCase();
-}
-search.addEventListener('blur', inputTextUpperCase);
-*/
-
 /* Запрет на ввод спец символов и алфавита */
 function keyUp() {
     let regValue = /[\А-Я+\а-я+\A-z+\a-z+\s+\-+\=+\№+\_+\.+\,+\/+\!+\@+\#+\$+\%+\^+\&+\*+\(+\)+\:+\;+\'+\"+\?+\<+\>+\~+\`+]/gi;
