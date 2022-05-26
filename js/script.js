@@ -45,12 +45,12 @@ setTimeout(function(){
     location.reload();
 }, 3600000);
 
-/* Преобразует вводимый текст в верхний регистр */
+/* Преобразует вводимый текст в верхний регистр 
 function inputTextUpperCase() {
   search.value = search.value.toUpperCase();
 }
-
 search.addEventListener('blur', inputTextUpperCase);
+*/
 
 /* Запрет на ввод спец символов и алфавита */
 function keyUp() {
