@@ -58,10 +58,13 @@ function inputBlur() {
     search.setAttribute('placeholder', 'Шукати по орієнтуванням');
 } 
 
+search.onblur = inputBlur;
+
 /* Поле ввода во время фокуса*/
 function inputFocus() {
     search.setAttribute('placeholder', 'Введіть цифри державного знаку');
 }
 
-search.onblur = inputBlur;
 search.onfocus = inputFocus;
+
+
