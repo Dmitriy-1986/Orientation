@@ -52,3 +52,16 @@ function keyUp() {
 }
 
 search.addEventListener('keyup', keyUp);
+
+/* Поле ввода после потери фокуса */
+function inputBlur() {
+    search.setAttribute('placeholder', 'Шукати по орієнтуванням...');
+} 
+
+/* Поле ввода во время фокуса*/
+function inputFocus() {
+    search.setAttribute('placeholder', 'Введіть цифри державного знаку...');
+}
+
+search.onblur = inputBlur;
+search.onfocus = inputFocus;
