@@ -50,22 +50,17 @@ function keyUp() {
     let regValue = /[\А-Я+\а-я+\A-z+\a-z+\s+\-+\=+\№+\_+\.+\,+\/+\!+\@+\#+\$+\%+\^+\&+\*+\(+\)+\:+\;+\'+\"+\?+\<+\>+\~+\`+]/gi;
     search.value = this.value.replace(regValue,'');
 }
-
 search.addEventListener('keyup', keyUp);
 
 /* Поле ввода после потери фокуса */
 function inputBlur() {
     search.setAttribute('placeholder', 'Шукати по орієнтуванням');
 } 
-
-//search.onblur = inputBlur;
 search.addEventListener('blur', inputBlur);
 
 /* Поле ввода во время фокуса*/
 function inputFocus() {
     search.setAttribute('placeholder', 'Введіть цифри державного знаку');
 }
-
-//search.onfocus = inputFocus;
 search.addEventListener('focus', inputFocus);
 
