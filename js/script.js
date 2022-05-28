@@ -22,8 +22,8 @@ const showList = () => {
      });
 };
 
+/* Выгружает showList() через 2 секунды */
 setTimeout(showList, 2000);
-//showList();
 
 search.addEventListener("input", (event) => {
     search_term = event.target.value.toLowerCase();
