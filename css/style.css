@@ -9,6 +9,12 @@
     box-sizing: border-box;
 }
 
+*::selection {
+      color: #ffffff;
+      background-color:  #99ff66;
+      text-shadow: 0 1px 1px #000000;
+}
+
 body {
      margin: 0 0 50px 0;
      font-size: 1rem;
@@ -248,12 +254,6 @@ li {
     width: 240px;
     border: 1px solid #262626;
     border-radius: 4px;
-}
-
-li::selection {
-      color: #ffffff;
-      background-color: #ff00ff;
-      text-shadow: 0 1px 1px #000000;
 }
 
 li span a {
