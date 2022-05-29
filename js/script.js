@@ -48,8 +48,7 @@ setTimeout(function(){
 /* Запрет на ввод спец символов и алфавита */
 function keyUp() {
     //let regValue = /[\А-Я+\а-я+\A-z+\a-z+\D+\s+\-+\=+\№+\_+\.+\,+\/+\!+\@+\#+\$+\%+\^+\&+\*+\(+\)+\:+\;+\'+\"+\?+\<+\>+\~+\`+]/gi;
-    let regValue = /[\D+]/g;
-    search.value = this.value.replace(regValue, '');
+    search.value = this.value.replace(/[\D+]/g, '');
 }
 search.addEventListener('keyup', keyUp);
 
