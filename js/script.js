@@ -45,9 +45,8 @@ setTimeout(function(){
     location.reload();
 }, 3600000);
 
-/* Запрет на ввод спец символов и алфавита */
+/* Запрет на ввода всех символов кроме цифр */
 function keyUp() {
-    //let regValue = /[\А-Я+\а-я+\A-z+\a-z+\D+\s+\-+\=+\№+\_+\.+\,+\/+\!+\@+\#+\$+\%+\^+\&+\*+\(+\)+\:+\;+\'+\"+\?+\<+\>+\~+\`+]/gi;
     search.value = this.value.replace(/[\D+]/g, '');
 }
 search.addEventListener('keyup', keyUp);
