@@ -258,8 +258,8 @@ li span a {
 }
 
 li span a::selection {
-      color: #000;
-      box-shadow: inset 0 0 #dc2430;
+      color: white;
+      background-color: #ee82ee;
 }
 
 li span a:hover { 
@@ -295,6 +295,11 @@ li span a:hover {
 .color-primary:hover {
       color: #ffffff;
       box-shadow: inset 100px 0 #0d6efd;  
+}
+
+.color-primary::selection {
+      color: white;
+      background-color: #ee82ee;
 }
 
 button {
