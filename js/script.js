@@ -47,8 +47,9 @@ setTimeout(function(){
 
 /* Запрет на ввод спец символов и алфавита */
 function keyUp() {
-    let regValue = /[\А-Я+\а-я+\A-z+\a-z+\s+\-+\=+\№+\_+\.+\,+\/+\!+\@+\#+\$+\%+\^+\&+\*+\(+\)+\:+\;+\'+\"+\?+\<+\>+\~+\`+]/gi;
-    search.value = this.value.replace(regValue,'');
+    //let regValue = /[\А-Я+\а-я+\A-z+\a-z+\D+\s+\-+\=+\№+\_+\.+\,+\/+\!+\@+\#+\$+\%+\^+\&+\*+\(+\)+\:+\;+\'+\"+\?+\<+\>+\~+\`+]/gi;
+    let regValue = /[\D+]/g;
+    search.value = this.value.replace(regValue, '');
 }
 search.addEventListener('keyup', keyUp);
 
