@@ -23,7 +23,7 @@ body {
 body::selection {
       color: #ffffff;
       background-color: #ff00ff;
-      text-shadow: 0 0 1px #000000;
+      text-shadow: 0 1px 1px #000000;
 }
 body::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
