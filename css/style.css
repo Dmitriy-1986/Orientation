@@ -20,11 +20,6 @@ body {
      background-size: cover;
 }
 
-body::selection {
-      color: #ffffff;
-      background-color: #ff00ff;
-      text-shadow: 0 1px 1px #000000;
-}
 body::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
 	border-radius: 10px;
@@ -174,6 +169,12 @@ h2 {
       column-count: 4; */   
       height: 100%;
       font-size: 11px;
+}
+
+.content::selection {
+      color: #ffffff;
+      background-color: #ff00ff;
+      text-shadow: 0 1px 1px #000000;
 }
 
 .height-content {
