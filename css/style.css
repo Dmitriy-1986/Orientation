@@ -10,9 +10,9 @@
 }
 
 *::selection {
-      color: #ffffff;
+      color: #000000;
       background-color:  #99ff66;
-      text-shadow: 0 1px 1px #000000;
+      text-shadow: 1px 2px 3px #136613;
 }
 
 body {
