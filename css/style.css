@@ -325,7 +325,7 @@ button:focus, button:active:focus  {
 }
 
 footer {
-      border-top: 1px dotted #6c757d; 
+     /* border-top: 1px dotted #6c757d; */
       margin-top: 10px;
       color: #6c757d; 
       text-align: center;
