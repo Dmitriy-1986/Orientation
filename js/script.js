@@ -1,3 +1,11 @@
+ window.onerror = function (name) {     
+     let contentEr = document.getElementById('content');     
+     let markEr = document.createElement('mark');
+         markEr.classList.add('mark-error');
+         markEr.innerHTML = `Увага! Помилка:  ${name} у JavaScript коді.`;       
+         contentEr.appendChild(markEr); 
+};
+
 const search = document.getElementById("search");
 const results = document.getElementById("results");
 let search_term = "";
