@@ -1,5 +1,11 @@
- try {
-const data = [
+/* Класс обработки ошибок */
+function ReadError(message) {
+  this.message = message;
+  this.name = 'ReadError';
+}
+
+try {
+   const data = [
             { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G", msg: "Авто викрадено з в/ч 3042" //},
             //{ img: "./images/АО0028СЕ.png", brand: "BMW 530D", number: "АО 0028 СЕ" },
             { img: "./images/405-410.jpg", brand: "Богдан А092", number: "АР 410 G", msg: "Авто викрадено з в/ч 3042"  },
