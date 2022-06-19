@@ -10,7 +10,7 @@ function ReadError(message) {
 
 const showList = () => {
   results.innerHTML = "";
-  
+try { 
   const data = [
             { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G", msg: "Авто викрадено з в/ч 3042" //},
             //{ img: "./images/АО0028СЕ.png", brand: "BMW 530D", number: "АО 0028 СЕ" },
@@ -714,7 +714,6 @@ const showList = () => {
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
 ];
   
-  try {
     data.reverse();//реверс массива
     data.filter((item) => {
       return (
