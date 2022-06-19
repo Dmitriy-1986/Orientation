@@ -1,3 +1,4 @@
+ try {
 const data = [
             { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G", msg: "Авто викрадено з в/ч 3042" //},
             //{ img: "./images/АО0028СЕ.png", brand: "BMW 530D", number: "АО 0028 СЕ" },
@@ -700,3 +701,21 @@ const data = [
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
 ];
+ } catch (e) {
+        if (e.name == 'SyntaxError') {
+          throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
+        } if (e.name == 'TypeError') {
+          throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
+        } else if (e.name == 'RangeError') {
+          throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
+        } else if (e.name == 'EvalError') {
+          throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
+        } else if (e.name == 'ReferenceError') {
+          throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
+        } else if (e.name == 'URIError') {
+          throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
+        } else {
+          // обработка остальных исключений
+          throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
+        }
+}
