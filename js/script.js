@@ -55,19 +55,19 @@ setTimeout(function(){
 
 /* Запрет на ввода всех символов кроме цифр */
 function keyUp() {
-    search.value = this.value.replace(/[\D+]/g, '');
+    this.value = this.value.replace(/[\D+]/g, '');
 }
 search.addEventListener('keyup', keyUp);
 
 /* Поле ввода после потери фокуса */
 function inputBlur() {
-    search.setAttribute('placeholder', 'Шукати по орієнтуванням');
+    this.setAttribute('placeholder', 'Шукати по орієнтуванням');
 } 
 search.addEventListener('blur', inputBlur);
 
 /* Поле ввода во время фокуса*/
 function inputFocus() {
-    search.setAttribute('placeholder', 'Введіть цифри державного знаку');
+    this.setAttribute('placeholder', 'Введіть цифри державного знаку');
 }
 search.addEventListener('focus', inputFocus);
 
