@@ -22,15 +22,14 @@ const showList = () => {
      });
 };
 
+// Выгружает showList() через 2 секунды и в случае ошибки, выполняет блок catch с типом ошибки в коде 
 try {
-      /* Выгружает showList() через 2 секунды */
       setTimeout(showList, 2000);
 } catch (e) {
      let contentError = document.getElementById('content');     
      let mark = document.createElement('mark');
          mark.classList.add('mark-error');
-         mark.innerHTML = `Увага! Помилка:  ${e.name} у JavaScript коді.`;
-       
+         mark.innerHTML = `Увага! Помилка:  ${e.name} у JavaScript коді.`;       
          contentError.appendChild(mark);  
 }
 
