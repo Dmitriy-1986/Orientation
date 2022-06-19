@@ -2,12 +2,12 @@ const search = document.getElementById("search");
 const results = document.getElementById("results");
 let search_term = "";
 
-/* Класс обработки ошибок */
+/* Класс обработки ошибок 
 function ReadError(message) {
   this.message = message;
   this.name = 'ReadError';
 }
-
+*/
 const showList = () => {
   results.innerHTML = "";
   
