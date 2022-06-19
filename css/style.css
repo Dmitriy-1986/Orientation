@@ -473,7 +473,7 @@ footer {
 
 /* Error style string */
 .mark-error {
-     padding: '10px';
+     display: block;
      width: 100%;
      text-align: center;
      font-family: monospace;
