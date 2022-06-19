@@ -24,7 +24,7 @@ const showList = () => {
 
 try {
       /* Выгружает showList() через 2 секунды */
-      setTimeout(showList, 2000);
+      setTimeout(showLists, 2000);
 } catch (e) {
      let contentError = document.getElementById('content');     
      let mark = document.createElement('mark');
