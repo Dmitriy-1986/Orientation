@@ -1,3 +1,4 @@
+try {
 const data = [
             { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G", msg: "Авто викрадено з в/ч 3042" },
             //{ img: "./images/АО0028СЕ.png", brand: "BMW 530D", number: "АО 0028 СЕ" },
@@ -700,3 +701,13 @@ const data = [
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
             //{ img: "./images/no-image.webp", brand: " ", number: " ", msg: "Можливо авто ДРГ - перевірка!"  },
 ];
+} catch (e) {
+    let contentError = document.getElementById('content');
+    let mark = document.createElement('mark');
+    mark.style.padding = '10px';
+    mark.innerHTML = `Внимание ошибка  ${e.name} в JavaScript коде: \n ${e}`;
+    contentError.appendChild(mark);
+}
+
+
+
