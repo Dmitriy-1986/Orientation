@@ -7,10 +7,10 @@ function ReadError(message) {
   this.message = message;
   this.name = 'ReadError';
 }
-
+try { 
 const showList = () => {
   results.innerHTML = "";
-try { 
+
   const data = [
             { img: "./images/AP415G.jpg", brand: "Chevrolet Niva", number: "АР 415 G", msg: "Авто викрадено з в/ч 3042" //},
             //{ img: "./images/АО0028СЕ.png", brand: "BMW 530D", number: "АО 0028 СЕ" },
@@ -728,7 +728,9 @@ try {
     <strong  title="${e.number}" class="color-primary cursor-pointer"  onclick="openMsg('${e.msg}')">${e.number}</strong>`;
         results.appendChild(li);
       });
-  } catch (e) {
+  
+};
+} catch (e) {
     if (e.name == 'SyntaxError') {
       throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
     } if (e.name == 'TypeError') {
@@ -746,7 +748,6 @@ try {
       throw new ReadError(`Увага! Помилка:  ${e.name} в JavaScript коді.`, e);
     }
   }
-};
 
 // Выгружает showList() через 2 секунды и в случае ошибки, выполняет блок catch с типом ошибки в коде 
 try {
