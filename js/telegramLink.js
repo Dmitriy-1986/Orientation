@@ -13,7 +13,7 @@ let telegramImg = document.createElement('img');
     telegramImg.setAttribute('alt', 'Telegram');
     telegramLink.appendChild(telegramImg);                 
                     
-//myrotvorets
+/*myrotvorets*/
 let myrotvoretsLink = document.createElement('a');
     myrotvoretsLink.setAttribute('title', 'Миротворець');
     myrotvoretsLink.setAttribute('href', 'https://lite.myrotvorets.center/');
