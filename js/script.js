@@ -79,3 +79,7 @@ function inputFocus() {
 }
 search.addEventListener('focus', inputFocus);
 
+/* Отмена вызова контекстного меню */
+document.documentElement.oncontextmenu = function() {
+    return false;
+}
