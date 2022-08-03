@@ -8,4 +8,4 @@ https://github.com/Dmitriy-1986/Orientation/blob/main/js/data.js
 ---
 <p>Таблиця з орієнтуваннями:</p>
 
->https://orientation.pp.ua/table.html
+>https://orientation.pp.ua/table.html | <a href="https://github.com/Dmitriy-1986/Orientation/blob/main/table.html">Code</a>
