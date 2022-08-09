@@ -39,3 +39,5 @@ const throttle = (func, ms) => {
         }, ms); 
     }
 }
+
+console.timeEnd('siteLoading');
