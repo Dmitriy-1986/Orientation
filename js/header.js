@@ -19,6 +19,7 @@ legend.appendChild(small);
 let inputSearch = document.createElement('input');
 inputSearch.id = "search"; 
 inputSearch.autofocus = true;
+inputSearch.style.caretColor = 'red';
 inputSearch.placeholder =  'Шукати по орієнтуванням...';
 inputSearch.setAttribute('autocomplete', 'off');
 inputSearch.setAttribute('type', 'search');
