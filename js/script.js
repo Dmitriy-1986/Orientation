@@ -23,7 +23,7 @@ const showList = () => {
 
      .forEach((e) => {
             const li = document.createElement("li");
-            li.innerHTML = `<img onclick="openImg('${e.img}')" class="img-size cursor-pointer" src="${e.img}" alt=" " title="${e.number}"><br>
+            li.innerHTML = `<div class="img-block"><img onclick="openImg('${e.img}')" class="img-size cursor-pointer" src="${e.img}" alt=" " title="${e.number}"></div><br>
                             <span title="${e.brand}"> <a href=" https://www.google.com/search?q=${e.brand} "  target="_blank">${e.brand}</a></span><br>
                             <strong  title="${e.number}" class="color-primary cursor-pointer"  onclick="openMsg('${e.msg}')">${e.number}</strong>`;            
             results.appendChild(li);
