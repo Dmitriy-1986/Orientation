@@ -272,17 +272,20 @@ li span a:hover {
       font-size: 11px;
 }
 
-.img-size {
+/*.img-size {
       float: left;
-      height: 70px;
+      height: 70px;*/
      /*width: 70px;
       object-fit: cover;*/
-      margin-right: 10px;
+     /* margin-right: 10px;
       transition: box-shadow .3s, transform .3s;
+}*/
+.img-block {
+     height: 70px;overflow: hidden;
 }
 
 .img-size:hover {
-      box-shadow: 0px 0px 4px 0px rgba(220, 53, 69);	
+      /*box-shadow: 0px 0px 4px 0px rgba(220, 53, 69);*/	
       transform: scale(1.2);
       filter: brightness(120%);
 }
