@@ -32,7 +32,7 @@ const showList = () => {
 
 // Выгружает showList() через 2 секунды и в случае ошибки, выполняет блок catch с типом ошибки в коде 
 try {      
-      setTimeout(showList, 2000);     
+      showList();     
 } catch (e) {
      let contentError = document.getElementById('content');     
      let mark = document.createElement('mark');
