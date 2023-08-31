@@ -42,7 +42,7 @@ const showList = () => {
 
     if (filteredData.length === 0) {
         const li = document.createElement("li");
-        li.textContent = `<span style="color: yellow; font-size: 16px; color: yellow; text-align: center; padding: 10px; border: none;">Об'єктів не знайдено.`;
+        li.innerHTML = `<span style="color: yellow; font-size: 16px; color: yellow; text-align: center; padding: 10px; border: none;">Об'єктів не знайдено.</span>`;
         results.appendChild(li);
     } else {
         filteredData.reverse();
