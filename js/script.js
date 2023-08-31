@@ -9,7 +9,7 @@
 const search = document.getElementById("search");
 const results = document.getElementById("results");
 let search_term = "";
-
+/*
 const showList = () => {
       results.innerHTML = "";
       data.reverse();//реверс массива
@@ -28,6 +28,33 @@ const showList = () => {
                             <strong  title="${e.number}" class="color-primary cursor-pointer"  onclick="openMsg('${e.msg}')">${e.number}</strong>`;            
             results.appendChild(li);
      });
+};
+*/
+
+const showList = () => {
+    results.innerHTML = "";
+    const filteredData = data.filter((item) => {
+        return (
+            item.number.toLowerCase().includes(search_term) ||
+            item.brand.toLowerCase().includes(search_term)
+        );
+    });
+
+    if (filteredData.length === 0) {
+        const li = document.createElement("li");
+        li.textContent = "Об'єктів не знайдено.";
+        results.appendChild(li);
+    } else {
+        filteredData.reverse();
+
+        filteredData.forEach((e) => {
+            const li = document.createElement("li");
+            li.innerHTML = `<img onclick="openImg('${e.img}')" class="img-size cursor-pointer" src="${e.img}" alt=" " title="${e.number}"><br>
+                            <span title="${e.brand}"> <a href=" https://www.google.com/search?q=${e.brand} "  target="_blank">${e.brand}</a></span><br>
+                            <strong  title="${e.number}" class="color-primary cursor-pointer"  onclick="openMsg('${e.msg}')">${e.number}</strong>`;
+            results.appendChild(li);
+        });
+    }
 };
 
 // Выгружает showList() через 2 секунды и в случае ошибки, выполняет блок catch с типом ошибки в коде 
